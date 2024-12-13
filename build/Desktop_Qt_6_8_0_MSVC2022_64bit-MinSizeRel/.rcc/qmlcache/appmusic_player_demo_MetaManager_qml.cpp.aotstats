@@ -1,0 +1,28 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 17,
+                        "durationMicroseconds": 152,
+                        "errorMessage": "Cannot access value for name m_music_Player",
+                        "functionName": "target",
+                        "line": 5
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 9,
+                        "durationMicroseconds": 79,
+                        "errorMessage": "Cannot access value for name m_music_Player",
+                        "functionName": "onMetaDataChanged",
+                        "line": 6
+                    }
+                ],
+                "filepath": "C:/Meta/Quick/music_player_demo/build/Desktop_Qt_6_8_0_MSVC2022_64bit-MinSizeRel/MetaManager.qml"
+            }
+        ],
+        "moduleId": "music_player_demo(appmusic_player_demo)"
+    }
+]

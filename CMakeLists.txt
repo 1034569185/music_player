@@ -1,0 +1,67 @@
+cmake_minimum_required(VERSION 3.16)
+
+project(music_player_demo VERSION 0.1 LANGUAGES CXX)
+
+set(CMAKE_AUTOMOC ON)
+set(CMAKE_CXX_STANDARD 20)  # 设置为 C++ 20
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+find_package(Qt6 6.2 COMPONENTS Quick Multimedia REQUIRED)
+
+set(CMAKE_AUTORCC ON)
+set(QT_QML_GENERATE_QMLLS_INI ON)
+
+qt_add_executable(appmusic_player_demo
+    main.cpp
+)
+
+qt_add_qml_module(appmusic_player_demo
+    URI music_player_demo
+    VERSION 1.0
+    QML_FILES main.qml
+    SOURCES framelesswindow.h framelesswindow.cpp
+    SOURCES
+    RESOURCES
+    RESOURCES ImageResource.qrc
+    QML_FILES TitleBar.qml
+    QML_FILES LeftBar.qml
+    QML_FILES RightContent.qml
+    QML_FILES BottomBar.qml
+    RESOURCES
+    QML_FILES theme/Theme.qml
+    QML_FILES theme/ThemeManager.qml
+    RESOURCES theme/qmldir
+    QML_FILES qcComponent/QCImage.qml
+    QML_FILES qcComponent/RoundImage.qml
+    QML_FILES qcComponent/QCToolTipButton.qml qcComponent/QCVolumeBtn.qml
+    QML_FILES pageQml/PageFindMusic.qml
+    QML_FILES qcComponent/QCScrollBar.qml
+    QML_FILES
+    QML_FILES QCMusicPlayer.qml
+    QML_FILES pageQml/PageLocalFolderDetail.qml
+    SOURCES musicplayer.h musicplayer.cpp
+    SOURCES qml_singleton.h
+    SOURCES
+    QML_FILES pageQml/Tools.qml
+    SOURCES myutility.h myutility.cpp
+    QML_FILES MetaManager.qml
+)
+
+# Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
+# If you are developing for iOS or macOS you should consider setting an
+# explicit, fixed bundle identifier manually though.
+set_target_properties(appmusic_player_demo PROPERTIES
+#    MACOSX_BUNDLE_GUI_IDENTIFIER com.example.appmusic_player_demo
+    MACOSX_BUNDLE_BUNDLE_VERSION ${PROJECT_VERSION}
+    MACOSX_BUNDLE_SHORT_VERSION_STRING ${PROJECT_VERSION_MAJOR}.${PROJECT_VERSION_MINOR}
+    MACOSX_BUNDLE TRUE
+    WIN32_EXECUTABLE TRUE
+)
+
+target_link_libraries(appmusic_player_demo
+    PRIVATE Qt6::Quick Qt6::Multimedia)
+
+include(GNUInstallDirs)
+install(TARGETS appmusic_player_demo
+    BUNDLE DESTINATION .
+    LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR})

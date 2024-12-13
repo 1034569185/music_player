@@ -1,0 +1,63 @@
+{
+    "classes": [
+        {
+            "classInfos": [
+                {
+                    "name": "QML.Element",
+                    "value": "auto"
+                }
+            ],
+            "className": "MusicPlayer",
+            "lineNumber": 10,
+            "methods": [
+                {
+                    "access": "public",
+                    "index": 1,
+                    "name": "play",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 2,
+                    "name": "pause",
+                    "returnType": "void"
+                }
+            ],
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": true,
+                    "index": 0,
+                    "name": "isPaused",
+                    "notify": "isPausedChanged",
+                    "read": "getIsPaused",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setIsPaused"
+                }
+            ],
+            "qualifiedClassName": "MusicPlayer",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "name": "isPausedChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "musicplayer.h",
+    "outputRevision": 68
+}

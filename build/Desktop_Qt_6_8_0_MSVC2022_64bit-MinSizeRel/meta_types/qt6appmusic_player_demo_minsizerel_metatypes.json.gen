@@ -1,0 +1,264 @@
+[
+    {
+        "classes": [
+            {
+                "classInfos": [
+                    {
+                        "name": "QML.Element",
+                        "value": "auto"
+                    }
+                ],
+                "className": "FramelessWindow",
+                "enums": [
+                    {
+                        "isClass": false,
+                        "isFlag": false,
+                        "name": "MousePosition",
+                        "values": [
+                            "NORMAL",
+                            "TOPLEFT",
+                            "TOP",
+                            "TOPRIGHT",
+                            "LEFT",
+                            "RIGHT",
+                            "BOTTOMLEFT",
+                            "BOTTOM",
+                            "BOTTOMRIGHT"
+                        ]
+                    }
+                ],
+                "lineNumber": 7,
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": true,
+                        "index": 0,
+                        "name": "mouse_pos",
+                        "notify": "mouse_posChanged",
+                        "read": "getMouse_pos",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "MousePosition",
+                        "user": false,
+                        "write": "setMouse_pos"
+                    }
+                ],
+                "qualifiedClassName": "FramelessWindow",
+                "signals": [
+                    {
+                        "access": "public",
+                        "index": 0,
+                        "name": "mouse_posChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QQuickWindow"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "framelesswindow.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
+                "classInfos": [
+                    {
+                        "name": "QML.Element",
+                        "value": "auto"
+                    }
+                ],
+                "className": "MusicPlayer",
+                "lineNumber": 17,
+                "methods": [
+                    {
+                        "access": "public",
+                        "index": 3,
+                        "name": "m_play",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 4,
+                        "name": "m_pause",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 5,
+                        "name": "m_stop",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "source",
+                                "type": "QUrl"
+                            }
+                        ],
+                        "index": 6,
+                        "name": "m_setSource",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 7,
+                        "name": "getMetaData",
+                        "returnType": "QMediaMetaData"
+                    }
+                ],
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": true,
+                        "index": 0,
+                        "name": "isPaused",
+                        "notify": "isPausedChanged",
+                        "read": "getIsPaused",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "bool",
+                        "user": false,
+                        "write": "setIsPaused"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 1,
+                        "name": "name",
+                        "notify": "metaDataChanged",
+                        "read": "name",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 2,
+                        "name": "artist",
+                        "notify": "metaDataChanged",
+                        "read": "artist",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 3,
+                        "name": "duration",
+                        "notify": "metaDataChanged",
+                        "read": "duration",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "qint64",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 4,
+                        "name": "coverImage",
+                        "notify": "metaDataChanged",
+                        "read": "coverImage",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false
+                    }
+                ],
+                "qualifiedClassName": "MusicPlayer",
+                "signals": [
+                    {
+                        "access": "public",
+                        "index": 0,
+                        "name": "isPausedChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 1,
+                        "name": "metaDataChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "slots": [
+                    {
+                        "access": "public",
+                        "index": 2,
+                        "name": "onInitializationDone",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QMediaPlayer"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "musicplayer.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
+                "classInfos": [
+                    {
+                        "name": "QML.Element",
+                        "value": "auto"
+                    }
+                ],
+                "className": "MyUtility",
+                "lineNumber": 9,
+                "methods": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "folder",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 0,
+                        "name": "showFiles",
+                        "returnType": "QStringList"
+                    }
+                ],
+                "object": true,
+                "qualifiedClassName": "MyUtility",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "myutility.h",
+        "outputRevision": 68
+    }
+]

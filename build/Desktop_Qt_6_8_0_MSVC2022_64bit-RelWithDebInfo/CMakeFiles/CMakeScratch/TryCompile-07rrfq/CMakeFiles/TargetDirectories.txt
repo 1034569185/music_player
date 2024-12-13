@@ -1,0 +1,3 @@
+C:/Meta/Quick/music_player_demo/build/Desktop_Qt_6_8_0_MSVC2022_64bit-RelWithDebInfo/CMakeFiles/CMakeScratch/TryCompile-07rrfq/CMakeFiles/cmTC_3005b.dir
+C:/Meta/Quick/music_player_demo/build/Desktop_Qt_6_8_0_MSVC2022_64bit-RelWithDebInfo/CMakeFiles/CMakeScratch/TryCompile-07rrfq/CMakeFiles/edit_cache.dir
+C:/Meta/Quick/music_player_demo/build/Desktop_Qt_6_8_0_MSVC2022_64bit-RelWithDebInfo/CMakeFiles/CMakeScratch/TryCompile-07rrfq/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,22 @@
+<RCC>
+  <qresource prefix="/music_player_demo/">
+    <file alias="main.qml">C:/Meta/Quick/music_player_demo/main.qml</file>
+    <file alias="TitleBar.qml">C:/Meta/Quick/music_player_demo/TitleBar.qml</file>
+    <file alias="LeftBar.qml">C:/Meta/Quick/music_player_demo/LeftBar.qml</file>
+    <file alias="RightContent.qml">C:/Meta/Quick/music_player_demo/RightContent.qml</file>
+    <file alias="BottomBar.qml">C:/Meta/Quick/music_player_demo/BottomBar.qml</file>
+    <file alias="theme/Theme.qml">C:/Meta/Quick/music_player_demo/theme/Theme.qml</file>
+    <file alias="theme/ThemeManager.qml">C:/Meta/Quick/music_player_demo/theme/ThemeManager.qml</file>
+    <file alias="qcComponent/QCImage.qml">C:/Meta/Quick/music_player_demo/qcComponent/QCImage.qml</file>
+    <file alias="qcComponent/RoundImage.qml">C:/Meta/Quick/music_player_demo/qcComponent/RoundImage.qml</file>
+    <file alias="qcComponent/QCToolTipButton.qml">C:/Meta/Quick/music_player_demo/qcComponent/QCToolTipButton.qml</file>
+    <file alias="qcComponent/QCVolumeBtn.qml">C:/Meta/Quick/music_player_demo/qcComponent/QCVolumeBtn.qml</file>
+    <file alias="pageQml/PageFindMusic.qml">C:/Meta/Quick/music_player_demo/pageQml/PageFindMusic.qml</file>
+    <file alias="qcComponent/QCScrollBar.qml">C:/Meta/Quick/music_player_demo/qcComponent/QCScrollBar.qml</file>
+    <file alias="QCMusicPlayer.qml">C:/Meta/Quick/music_player_demo/QCMusicPlayer.qml</file>
+    <file alias="pageQml/PageLocalFolderDetail.qml">C:/Meta/Quick/music_player_demo/pageQml/PageLocalFolderDetail.qml</file>
+    <file alias="ImageResource.qrc">C:/Meta/Quick/music_player_demo/ImageResource.qrc</file>
+    <file alias="theme/qmldir">C:/Meta/Quick/music_player_demo/theme/qmldir</file>
+  </qresource>
+</RCC>
+
