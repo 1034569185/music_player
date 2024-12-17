@@ -96,13 +96,6 @@ namespace _music_player_demo_qcComponent_QCScrollBar_qml {
         reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
     };
 }
-namespace _music_player_demo_QCMusicPlayer_qml { 
-    extern const unsigned char qmlData[];
-    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
-    const QQmlPrivate::CachedQmlUnit unit = {
-        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
-    };
-}
 namespace _music_player_demo_pageQml_PageLocalFolderDetail_qml { 
     extern const unsigned char qmlData[];
     extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
@@ -151,7 +144,6 @@ Registry::Registry() {
     resourcePathToCachedUnit.insert(QStringLiteral("/music_player_demo/qcComponent/QCVolumeBtn.qml"), &QmlCacheGeneratedCode::_music_player_demo_qcComponent_QCVolumeBtn_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/music_player_demo/pageQml/PageFindMusic.qml"), &QmlCacheGeneratedCode::_music_player_demo_pageQml_PageFindMusic_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/music_player_demo/qcComponent/QCScrollBar.qml"), &QmlCacheGeneratedCode::_music_player_demo_qcComponent_QCScrollBar_qml::unit);
-    resourcePathToCachedUnit.insert(QStringLiteral("/music_player_demo/QCMusicPlayer.qml"), &QmlCacheGeneratedCode::_music_player_demo_QCMusicPlayer_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/music_player_demo/pageQml/PageLocalFolderDetail.qml"), &QmlCacheGeneratedCode::_music_player_demo_pageQml_PageLocalFolderDetail_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/music_player_demo/pageQml/Tools.qml"), &QmlCacheGeneratedCode::_music_player_demo_pageQml_Tools_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/music_player_demo/MetaManager.qml"), &QmlCacheGeneratedCode::_music_player_demo_MetaManager_qml::unit);

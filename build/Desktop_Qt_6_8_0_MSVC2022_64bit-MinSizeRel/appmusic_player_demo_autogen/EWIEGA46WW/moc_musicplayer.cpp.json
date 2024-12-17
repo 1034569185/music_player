@@ -8,23 +8,23 @@
                 }
             ],
             "className": "MusicPlayer",
-            "lineNumber": 17,
+            "lineNumber": 16,
             "methods": [
                 {
                     "access": "public",
-                    "index": 3,
+                    "index": 5,
                     "name": "m_play",
                     "returnType": "void"
                 },
                 {
                     "access": "public",
-                    "index": 4,
+                    "index": 6,
                     "name": "m_pause",
                     "returnType": "void"
                 },
                 {
                     "access": "public",
-                    "index": 5,
+                    "index": 7,
                     "name": "m_stop",
                     "returnType": "void"
                 },
@@ -36,13 +36,13 @@
                             "type": "QUrl"
                         }
                     ],
-                    "index": 6,
+                    "index": 8,
                     "name": "m_setSource",
                     "returnType": "void"
                 },
                 {
                     "access": "public",
-                    "index": 7,
+                    "index": 9,
                     "name": "getMetaData",
                     "returnType": "QMediaMetaData"
                 }
@@ -119,6 +119,36 @@
                     "stored": true,
                     "type": "QString",
                     "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": true,
+                    "index": 5,
+                    "name": "volume",
+                    "notify": "volumeChanged",
+                    "read": "volume",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "float",
+                    "user": false,
+                    "write": "setVolume"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": true,
+                    "index": 6,
+                    "name": "lastVolume",
+                    "notify": "lastVolumeChanged",
+                    "read": "getLastVolume",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "float",
+                    "user": false,
+                    "write": "setLastVolume"
                 }
             ],
             "qualifiedClassName": "MusicPlayer",
@@ -134,12 +164,24 @@
                     "index": 1,
                     "name": "metaDataChanged",
                     "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 2,
+                    "name": "volumeChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 3,
+                    "name": "lastVolumeChanged",
+                    "returnType": "void"
                 }
             ],
             "slots": [
                 {
                     "access": "public",
-                    "index": 2,
+                    "index": 4,
                     "name": "onInitializationDone",
                     "returnType": "void"
                 }

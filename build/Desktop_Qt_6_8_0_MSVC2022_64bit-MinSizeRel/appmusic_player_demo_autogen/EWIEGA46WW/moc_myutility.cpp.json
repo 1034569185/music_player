@@ -21,6 +21,24 @@
                     "index": 0,
                     "name": "showFiles",
                     "returnType": "QStringList"
+                },
+                {
+                    "access": "public",
+                    "index": 1,
+                    "name": "getInit",
+                    "returnType": "QString"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "path",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 2,
+                    "name": "init",
+                    "returnType": "void"
                 }
             ],
             "object": true,

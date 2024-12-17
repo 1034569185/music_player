@@ -207,7 +207,7 @@ Rectangle {
                         leftBar.thisBtnText = leftBar.findMusicData.btnData[index].btnText
                     }
                     func()
-                    rightContent.push({callBack:func,name: leftBar.findMusicData.btnData[index].btnText,data: {}})
+                    // rightContent.push({callBack:func,name: leftBar.findMusicData.btnData[index].btnText,data: {}})
                 }
                 onEntered: {
                     parent.isHoverd = true
@@ -290,7 +290,7 @@ Rectangle {
                         leftBar.thisBtnText = leftBar.myMusicData.btnData[index].btnText
                     }
                     func()
-                    rightContent.push({callBack:func,name: leftBar.myMusicData.btnData[index].btnText,data: {}})
+                    // rightContent.push({callBack:func,name: leftBar.myMusicData.btnData[index].btnText,data: {}})
                 }
                 onEntered: {
                     parent.isHoverd = true

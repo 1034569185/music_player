@@ -87,8 +87,28 @@ Module {
             index: 4
             isReadonly: true
         }
+        Property {
+            name: "volume"
+            type: "float"
+            read: "volume"
+            write: "setVolume"
+            notify: "volumeChanged"
+            index: 5
+            isFinal: true
+        }
+        Property {
+            name: "lastVolume"
+            type: "float"
+            read: "getLastVolume"
+            write: "setLastVolume"
+            notify: "lastVolumeChanged"
+            index: 6
+            isFinal: true
+        }
         Signal { name: "isPausedChanged" }
         Signal { name: "metaDataChanged" }
+        Signal { name: "volumeChanged" }
+        Signal { name: "lastVolumeChanged" }
         Method { name: "onInitializationDone" }
         Method { name: "m_play" }
         Method { name: "m_pause" }
@@ -110,6 +130,11 @@ Module {
             name: "showFiles"
             type: "QStringList"
             Parameter { name: "folder"; type: "QString" }
+        }
+        Method { name: "getInit"; type: "QString" }
+        Method {
+            name: "init"
+            Parameter { name: "path"; type: "QString" }
         }
     }
     Component {

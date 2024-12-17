@@ -11,7 +11,6 @@
 #include <QByteArray>
 #include <QBuffer>
 #include <QTimer>
-#include <experimental/generator>
 // #include "qml_singleton.h"
 
 class MusicPlayer : public QMediaPlayer
@@ -27,6 +26,7 @@ public:
     Q_INVOKABLE QMediaMetaData getMetaData();
 
     bool isPaused;
+    float lastVolume;
 
 
     bool getIsPaused() const;
@@ -41,12 +41,22 @@ public:
     qint64 duration() const;
 
 
+    float volume() const;
+    void setVolume(float newVolume);
+
+    float getLastVolume() const;
+    void setLastVolume(float newLastVolume);
+
 signals:
 
     void isPausedChanged();
 
 
     void metaDataChanged();
+
+    void volumeChanged();
+
+    void lastVolumeChanged();
 
 private:
     QAudioOutput *audioOutput;
@@ -56,11 +66,12 @@ private:
     Q_PROPERTY(qint64  duration READ duration NOTIFY metaDataChanged)
     Q_PROPERTY(QString coverImage READ coverImage NOTIFY metaDataChanged)
 
+    Q_PROPERTY(float volume READ volume WRITE setVolume NOTIFY volumeChanged FINAL)
+
+    Q_PROPERTY(float lastVolume READ getLastVolume WRITE setLastVolume NOTIFY lastVolumeChanged FINAL)
+
 public  slots:
-    void onInitializationDone()
-  {
-      emit metaDataChanged();
-  }
+    void onInitializationDone(){emit metaDataChanged();}
 };
 
 // DECLARE_QML_SINGLETON(MusicPlayer)

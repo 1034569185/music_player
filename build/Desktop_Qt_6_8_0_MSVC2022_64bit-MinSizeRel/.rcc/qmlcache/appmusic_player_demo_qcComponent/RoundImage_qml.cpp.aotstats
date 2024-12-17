@@ -6,7 +6,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 26,
-                        "durationMicroseconds": 239,
+                        "durationMicroseconds": 253,
                         "errorMessage": "",
                         "functionName": "status",
                         "line": 7
@@ -14,7 +14,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 17,
-                        "durationMicroseconds": 96,
+                        "durationMicroseconds": 105,
                         "errorMessage": "Cannot load property source from (component in C:/Meta/Quick/music_player_demo/build/Desktop_Qt_6_8_0_MSVC2022_64bit-MinSizeRel/RoundImage.qml)::parent with type QQuickItem.",
                         "functionName": "source",
                         "line": 16
@@ -22,7 +22,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 19,
-                        "durationMicroseconds": 104,
+                        "durationMicroseconds": 109,
                         "errorMessage": "",
                         "functionName": "fillMode",
                         "line": 17
@@ -30,7 +30,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 23,
-                        "durationMicroseconds": 72,
+                        "durationMicroseconds": 71,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 14
@@ -46,7 +46,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 21,
-                        "durationMicroseconds": 75,
+                        "durationMicroseconds": 74,
                         "errorMessage": "",
                         "functionName": "maskSource",
                         "line": 22
@@ -54,7 +54,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 23,
-                        "durationMicroseconds": 70,
+                        "durationMicroseconds": 67,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 20
@@ -62,7 +62,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 17,
-                        "durationMicroseconds": 87,
+                        "durationMicroseconds": 120,
                         "errorMessage": "Cannot load property radius from (component in C:/Meta/Quick/music_player_demo/build/Desktop_Qt_6_8_0_MSVC2022_64bit-MinSizeRel/RoundImage.qml)::parent with type QQuickItem.",
                         "functionName": "radius",
                         "line": 27
@@ -70,7 +70,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 23,
-                        "durationMicroseconds": 74,
+                        "durationMicroseconds": 82,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 26

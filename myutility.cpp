@@ -10,10 +10,11 @@ QStringList MyUtility::showFiles(QString folder)
     qDebug() << str;
     QDir dir(str);
     QStringList res;
-
+    QStringList filters;
+    filters << "*.mp3";
     if( dir.exists() )
     {
-        res = dir.entryList(QDir::Files);
+        res = dir.entryList(filters, QDir::Files);
     }
     else
     {
@@ -21,4 +22,32 @@ QStringList MyUtility::showFiles(QString folder)
     }
 
     return res;
+}
+
+QString MyUtility::getInit()
+{
+    QFile file("backup");
+    QString res;
+    if(  file.open(QFile::ReadOnly) )
+    {
+        QTextStream in(&file);
+        res = in.readLine();
+    }
+    else
+        res = "";
+
+    file.close();
+    return res;
+}
+
+void MyUtility::init(QString path)
+{
+    QFile file("backup");
+    if(  file.open(QFile::WriteOnly) )
+    {
+        QTextStream out(&file);
+        out << path;
+    }
+
+    file.close();
 }

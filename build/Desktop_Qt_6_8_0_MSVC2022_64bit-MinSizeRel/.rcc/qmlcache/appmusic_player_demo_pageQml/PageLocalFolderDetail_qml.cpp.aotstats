@@ -6,7 +6,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 19,
-                        "durationMicroseconds": 257,
+                        "durationMicroseconds": 184,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 10
@@ -14,154 +14,138 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 26,
-                        "durationMicroseconds": 154,
+                        "durationMicroseconds": 118,
                         "errorMessage": "Cannot access value for name ul",
                         "functionName": "onFolderChanged",
-                        "line": 15
+                        "line": 24
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 32,
+                        "durationMicroseconds": 74,
+                        "errorMessage": "Cannot access value for name ul",
+                        "functionName": "onCompleted",
+                        "line": 16
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 23,
-                        "durationMicroseconds": 98,
+                        "durationMicroseconds": 82,
                         "errorMessage": "",
                         "functionName": "fill",
-                        "line": 30
+                        "line": 45
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 20,
-                        "durationMicroseconds": 144,
+                        "durationMicroseconds": 128,
                         "errorMessage": "",
                         "functionName": "width",
-                        "line": 35
+                        "line": 50
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 41,
-                        "durationMicroseconds": 179,
+                        "durationMicroseconds": 140,
                         "errorMessage": "",
                         "functionName": "verticalCenter",
-                        "line": 40
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 25,
-                        "durationMicroseconds": 104,
-                        "errorMessage": "",
-                        "functionName": "height",
-                        "line": 48
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 41,
-                        "durationMicroseconds": 150,
-                        "errorMessage": "",
-                        "functionName": "verticalCenter",
-                        "line": 51
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 28,
-                        "durationMicroseconds": 189,
-                        "errorMessage": "",
-                        "functionName": "width",
                         "line": 55
                     },
                     {
                         "codegenSuccessfull": true,
-                        "column": 29,
-                        "durationMicroseconds": 236,
+                        "column": 25,
+                        "durationMicroseconds": 76,
                         "errorMessage": "",
                         "functionName": "height",
-                        "line": 56
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 33,
-                        "durationMicroseconds": 299,
-                        "errorMessage": "",
-                        "functionName": "sourceSize",
-                        "line": 58
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 39,
-                        "durationMicroseconds": 77,
-                        "errorMessage": "",
-                        "functionName": "centerIn",
-                        "line": 57
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 32,
-                        "durationMicroseconds": 65,
-                        "errorMessage": "Type (component in C:/Meta/Quick/music_player_demo/build/Desktop_Qt_6_8_0_MSVC2022_64bit-MinSizeRel/PageLocalFolderDetail.qml)::parent with type QQuickItem does not have a property color for writing",
-                        "functionName": "onEntered",
-                        "line": 66
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 31,
-                        "durationMicroseconds": 21,
-                        "errorMessage": "Type (component in C:/Meta/Quick/music_player_demo/build/Desktop_Qt_6_8_0_MSVC2022_64bit-MinSizeRel/PageLocalFolderDetail.qml)::parent with type QQuickItem does not have a property color for writing",
-                        "functionName": "onExited",
-                        "line": 72
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 32,
-                        "durationMicroseconds": 141,
-                        "errorMessage": "",
-                        "functionName": "onClicked",
-                        "line": 75
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 35,
-                        "durationMicroseconds": 69,
-                        "errorMessage": "",
-                        "functionName": "fill",
-                        "line": 64
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 20,
-                        "durationMicroseconds": 99,
-                        "errorMessage": "",
-                        "functionName": "width",
-                        "line": 84
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 23,
-                        "durationMicroseconds": 263,
-                        "errorMessage": "",
-                        "functionName": "text",
-                        "line": 91
+                        "line": 63
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 41,
-                        "durationMicroseconds": 146,
+                        "durationMicroseconds": 199,
                         "errorMessage": "",
                         "functionName": "verticalCenter",
-                        "line": 89
+                        "line": 66
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 28,
+                        "durationMicroseconds": 190,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 70
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 29,
+                        "durationMicroseconds": 158,
+                        "errorMessage": "",
+                        "functionName": "height",
+                        "line": 71
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 33,
+                        "durationMicroseconds": 286,
+                        "errorMessage": "",
+                        "functionName": "sourceSize",
+                        "line": 73
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 39,
+                        "durationMicroseconds": 73,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 72
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 32,
+                        "durationMicroseconds": 89,
+                        "errorMessage": "Type (component in C:/Meta/Quick/music_player_demo/build/Desktop_Qt_6_8_0_MSVC2022_64bit-MinSizeRel/PageLocalFolderDetail.qml)::parent with type QQuickItem does not have a property color for writing",
+                        "functionName": "onEntered",
+                        "line": 81
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 31,
+                        "durationMicroseconds": 22,
+                        "errorMessage": "Type (component in C:/Meta/Quick/music_player_demo/build/Desktop_Qt_6_8_0_MSVC2022_64bit-MinSizeRel/PageLocalFolderDetail.qml)::parent with type QQuickItem does not have a property color for writing",
+                        "functionName": "onExited",
+                        "line": 87
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 32,
+                        "durationMicroseconds": 182,
+                        "errorMessage": "",
+                        "functionName": "onClicked",
+                        "line": 90
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 35,
+                        "durationMicroseconds": 89,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 79
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 20,
-                        "durationMicroseconds": 109,
+                        "durationMicroseconds": 165,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 99
                     },
                     {
                         "codegenSuccessfull": true,
-                        "column": 24,
-                        "durationMicroseconds": 329,
+                        "column": 23,
+                        "durationMicroseconds": 249,
                         "errorMessage": "",
-                        "functionName": "color",
-                        "line": 108
+                        "functionName": "text",
+                        "line": 106
                     },
                     {
                         "codegenSuccessfull": true,
@@ -173,99 +157,123 @@
                     },
                     {
                         "codegenSuccessfull": true,
-                        "column": 28,
-                        "durationMicroseconds": 66,
+                        "column": 20,
+                        "durationMicroseconds": 95,
                         "errorMessage": "",
-                        "functionName": "bold",
-                        "line": 110
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 32,
-                        "durationMicroseconds": 122,
-                        "errorMessage": "",
-                        "functionName": "onEntered",
-                        "line": 115
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 32,
-                        "durationMicroseconds": 24,
-                        "errorMessage": "Type (component in C:/Meta/Quick/music_player_demo/build/Desktop_Qt_6_8_0_MSVC2022_64bit-MinSizeRel/PageLocalFolderDetail.qml)::parent with type QQuickItem does not have a property isSelected for writing",
-                        "functionName": "onClicked",
-                        "line": 119
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 35,
-                        "durationMicroseconds": 80,
-                        "errorMessage": "",
-                        "functionName": "fill",
-                        "line": 113
+                        "functionName": "width",
+                        "line": 114
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 24,
-                        "durationMicroseconds": 307,
+                        "durationMicroseconds": 366,
                         "errorMessage": "",
                         "functionName": "color",
-                        "line": 132
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 31,
-                        "durationMicroseconds": 133,
-                        "errorMessage": "",
-                        "functionName": "left",
-                        "line": 127
+                        "line": 123
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 41,
-                        "durationMicroseconds": 130,
+                        "durationMicroseconds": 168,
                         "errorMessage": "",
                         "functionName": "verticalCenter",
-                        "line": 129
+                        "line": 119
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 28,
-                        "durationMicroseconds": 69,
+                        "durationMicroseconds": 79,
                         "errorMessage": "",
                         "functionName": "bold",
-                        "line": 133
+                        "line": 125
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 32,
-                        "durationMicroseconds": 115,
+                        "durationMicroseconds": 177,
                         "errorMessage": "",
                         "functionName": "onEntered",
-                        "line": 139
+                        "line": 130
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 32,
-                        "durationMicroseconds": 23,
+                        "durationMicroseconds": 26,
                         "errorMessage": "Type (component in C:/Meta/Quick/music_player_demo/build/Desktop_Qt_6_8_0_MSVC2022_64bit-MinSizeRel/PageLocalFolderDetail.qml)::parent with type QQuickItem does not have a property isSelected for writing",
                         "functionName": "onClicked",
-                        "line": 143
+                        "line": 134
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 35,
-                        "durationMicroseconds": 89,
+                        "durationMicroseconds": 69,
                         "errorMessage": "",
                         "functionName": "fill",
-                        "line": 137
+                        "line": 128
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 24,
+                        "durationMicroseconds": 320,
+                        "errorMessage": "",
+                        "functionName": "color",
+                        "line": 147
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 31,
+                        "durationMicroseconds": 127,
+                        "errorMessage": "",
+                        "functionName": "left",
+                        "line": 142
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 41,
-                        "durationMicroseconds": 128,
+                        "durationMicroseconds": 120,
                         "errorMessage": "",
                         "functionName": "verticalCenter",
-                        "line": 150
+                        "line": 144
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 28,
+                        "durationMicroseconds": 59,
+                        "errorMessage": "",
+                        "functionName": "bold",
+                        "line": 148
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 32,
+                        "durationMicroseconds": 114,
+                        "errorMessage": "",
+                        "functionName": "onEntered",
+                        "line": 154
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 32,
+                        "durationMicroseconds": 25,
+                        "errorMessage": "Type (component in C:/Meta/Quick/music_player_demo/build/Desktop_Qt_6_8_0_MSVC2022_64bit-MinSizeRel/PageLocalFolderDetail.qml)::parent with type QQuickItem does not have a property isSelected for writing",
+                        "functionName": "onClicked",
+                        "line": 158
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 35,
+                        "durationMicroseconds": 63,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 152
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 41,
+                        "durationMicroseconds": 161,
+                        "errorMessage": "",
+                        "functionName": "verticalCenter",
+                        "line": 165
                     },
                     {
                         "codegenSuccessfull": true,
@@ -273,151 +281,159 @@
                         "durationMicroseconds": 120,
                         "errorMessage": "",
                         "functionName": "right",
-                        "line": 151
+                        "line": 166
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 32,
-                        "durationMicroseconds": 120,
+                        "durationMicroseconds": 123,
                         "errorMessage": "",
                         "functionName": "onEntered",
-                        "line": 161
+                        "line": 176
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 32,
-                        "durationMicroseconds": 43,
+                        "durationMicroseconds": 38,
                         "errorMessage": "",
                         "functionName": "onClicked",
-                        "line": 165
+                        "line": 180
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 35,
-                        "durationMicroseconds": 67,
+                        "durationMicroseconds": 75,
                         "errorMessage": "",
                         "functionName": "fill",
-                        "line": 159
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 20,
-                        "durationMicroseconds": 106,
-                        "errorMessage": "",
-                        "functionName": "width",
-                        "line": 173
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 21,
-                        "durationMicroseconds": 395,
-                        "errorMessage": "",
-                        "functionName": "height",
                         "line": 174
                     },
                     {
                         "codegenSuccessfull": true,
-                        "column": 24,
-                        "durationMicroseconds": 152,
+                        "column": 20,
+                        "durationMicroseconds": 160,
                         "errorMessage": "",
                         "functionName": "width",
-                        "line": 181
+                        "line": 188
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 21,
+                        "durationMicroseconds": 502,
+                        "errorMessage": "",
+                        "functionName": "height",
+                        "line": 189
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 24,
+                        "durationMicroseconds": 151,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 196
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 25,
-                        "durationMicroseconds": 211,
+                        "durationMicroseconds": 138,
                         "errorMessage": "",
                         "functionName": "height",
-                        "line": 182
+                        "line": 197
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 24,
-                        "durationMicroseconds": 306,
+                        "durationMicroseconds": 190,
                         "errorMessage": "",
                         "functionName": "start",
-                        "line": 184
+                        "line": 199
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 22,
-                        "durationMicroseconds": 186,
+                        "durationMicroseconds": 190,
                         "errorMessage": "",
                         "functionName": "end",
-                        "line": 185
+                        "line": 200
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 35,
-                        "durationMicroseconds": 68,
+                        "durationMicroseconds": 64,
                         "errorMessage": "",
                         "functionName": "centerIn",
-                        "line": 183
+                        "line": 198
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 58,
-                        "durationMicroseconds": 240,
+                        "durationMicroseconds": 260,
                         "errorMessage": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: QVariant -> QColor stored as QVariant",
                         "functionName": "color",
-                        "line": 189
+                        "line": 204
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 58,
-                        "durationMicroseconds": 252,
+                        "durationMicroseconds": 230,
                         "errorMessage": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: QVariant -> QColor stored as QVariant",
                         "functionName": "color",
-                        "line": 190
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 27,
-                        "durationMicroseconds": 101,
-                        "errorMessage": "",
-                        "functionName": "snapMode",
-                        "line": 203
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 24,
-                        "durationMicroseconds": 75,
-                        "errorMessage": "",
-                        "functionName": "model",
                         "line": 205
                     },
                     {
                         "codegenSuccessfull": true,
+                        "column": 27,
+                        "durationMicroseconds": 99,
+                        "errorMessage": "",
+                        "functionName": "snapMode",
+                        "line": 218
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 24,
+                        "durationMicroseconds": 105,
+                        "errorMessage": "",
+                        "functionName": "model",
+                        "line": 226
+                    },
+                    {
+                        "codegenSuccessfull": true,
                         "column": 31,
-                        "durationMicroseconds": 65,
+                        "durationMicroseconds": 63,
                         "errorMessage": "",
                         "functionName": "fill",
-                        "line": 198
+                        "line": 213
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 31,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Cannot resolve property type  for binding on snapMode.",
+                        "functionName": "snapMode",
+                        "line": 223
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 28,
-                        "durationMicroseconds": 113,
+                        "durationMicroseconds": 91,
                         "errorMessage": "",
                         "functionName": "width",
-                        "line": 215
+                        "line": 236
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 32,
-                        "durationMicroseconds": 308,
+                        "durationMicroseconds": 310,
                         "errorMessage": "",
                         "functionName": "color",
-                        "line": 224
+                        "line": 245
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 39,
-                        "durationMicroseconds": 66,
+                        "durationMicroseconds": 62,
                         "errorMessage": "",
                         "functionName": "fill",
-                        "line": 219
+                        "line": 240
                     },
                     {
                         "codegenSuccessfull": false,
@@ -425,23 +441,23 @@
                         "durationMicroseconds": 31,
                         "errorMessage": "Type (component in C:/Meta/Quick/music_player_demo/build/Desktop_Qt_6_8_0_MSVC2022_64bit-MinSizeRel/PageLocalFolderDetail.qml)::parent with type QQuickItem does not have a property isHovered for writing",
                         "functionName": "onEntered",
-                        "line": 230
+                        "line": 251
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 39,
-                        "durationMicroseconds": 55,
+                        "durationMicroseconds": 54,
                         "errorMessage": "Type (component in C:/Meta/Quick/music_player_demo/build/Desktop_Qt_6_8_0_MSVC2022_64bit-MinSizeRel/PageLocalFolderDetail.qml)::parent with type QQuickItem does not have a property isHovered for writing",
                         "functionName": "onExited",
-                        "line": 234
+                        "line": 255
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 40,
-                        "durationMicroseconds": 46,
+                        "durationMicroseconds": 43,
                         "errorMessage": "",
                         "functionName": "onClicked",
-                        "line": 238
+                        "line": 259
                     },
                     {
                         "codegenSuccessfull": false,
@@ -449,23 +465,23 @@
                         "durationMicroseconds": 56,
                         "errorMessage": "Cannot access value for name fd",
                         "functionName": "onDoubleClicked",
-                        "line": 241
+                        "line": 262
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 43,
-                        "durationMicroseconds": 68,
+                        "durationMicroseconds": 66,
                         "errorMessage": "",
                         "functionName": "fill",
-                        "line": 227
+                        "line": 248
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 54,
-                        "durationMicroseconds": 668,
+                        "durationMicroseconds": 661,
                         "errorMessage": "",
                         "functionName": "benchmark",
-                        "line": 252
+                        "line": 273
                     },
                     {
                         "codegenSuccessfull": true,
@@ -473,15 +489,15 @@
                         "durationMicroseconds": 67,
                         "errorMessage": "",
                         "functionName": "fill",
-                        "line": 251
+                        "line": 272
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 39,
-                        "durationMicroseconds": 322,
+                        "durationMicroseconds": 310,
                         "errorMessage": "Cannot access value for name index",
                         "functionName": "text",
-                        "line": 258
+                        "line": 279
                     },
                     {
                         "codegenSuccessfull": true,
@@ -489,23 +505,23 @@
                         "durationMicroseconds": 130,
                         "errorMessage": "",
                         "functionName": "verticalCenter",
-                        "line": 255
+                        "line": 276
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 47,
-                        "durationMicroseconds": 120,
+                        "durationMicroseconds": 118,
                         "errorMessage": "",
                         "functionName": "left",
-                        "line": 256
+                        "line": 277
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 45,
-                        "durationMicroseconds": 251,
+                        "durationMicroseconds": 259,
                         "errorMessage": "",
                         "functionName": "sourceSize",
-                        "line": 268
+                        "line": 289
                     },
                     {
                         "codegenSuccessfull": true,
@@ -513,39 +529,39 @@
                         "durationMicroseconds": 130,
                         "errorMessage": "",
                         "functionName": "verticalCenter",
-                        "line": 265
+                        "line": 286
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 47,
-                        "durationMicroseconds": 170,
+                        "durationMicroseconds": 116,
                         "errorMessage": "",
                         "functionName": "left",
-                        "line": 266
+                        "line": 287
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 48,
-                        "durationMicroseconds": 48,
+                        "durationMicroseconds": 47,
                         "errorMessage": "Type (component in C:/Meta/Quick/music_player_demo/build/Desktop_Qt_6_8_0_MSVC2022_64bit-MinSizeRel/PageLocalFolderDetail.qml)::parent with type QQuickItem does not have a property isHovered for writing",
                         "functionName": "onEntered",
-                        "line": 276
+                        "line": 297
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 47,
-                        "durationMicroseconds": 19,
+                        "durationMicroseconds": 20,
                         "errorMessage": "Type (component in C:/Meta/Quick/music_player_demo/build/Desktop_Qt_6_8_0_MSVC2022_64bit-MinSizeRel/PageLocalFolderDetail.qml)::parent with type QQuickItem does not have a property isHovered for writing",
                         "functionName": "onExited",
-                        "line": 280
+                        "line": 301
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 49,
-                        "durationMicroseconds": 45,
+                        "durationMicroseconds": 43,
                         "errorMessage": "",
                         "functionName": "onClicked",
-                        "line": 284
+                        "line": 305
                     },
                     {
                         "codegenSuccessfull": true,
@@ -553,7 +569,7 @@
                         "durationMicroseconds": 65,
                         "errorMessage": "",
                         "functionName": "fill",
-                        "line": 273
+                        "line": 294
                     },
                     {
                         "codegenSuccessfull": false,
@@ -561,119 +577,119 @@
                         "durationMicroseconds": 41,
                         "errorMessage": "Cannot access value for name model",
                         "functionName": "text",
-                        "line": 295
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 57,
-                        "durationMicroseconds": 125,
-                        "errorMessage": "",
-                        "functionName": "verticalCenter",
-                        "line": 292
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 47,
-                        "durationMicroseconds": 121,
-                        "errorMessage": "",
-                        "functionName": "left",
-                        "line": 293
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 39,
-                        "durationMicroseconds": 39,
-                        "errorMessage": "Cannot access value for name model",
-                        "functionName": "text",
-                        "line": 303
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 57,
-                        "durationMicroseconds": 130,
-                        "errorMessage": "",
-                        "functionName": "verticalCenter",
-                        "line": 300
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 47,
-                        "durationMicroseconds": 119,
-                        "errorMessage": "",
-                        "functionName": "left",
-                        "line": 301
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 53,
-                        "durationMicroseconds": 91,
-                        "errorMessage": "Cannot load property benchmark from (component in C:/Meta/Quick/music_player_demo/build/Desktop_Qt_6_8_0_MSVC2022_64bit-MinSizeRel/PageLocalFolderDetail.qml)::parent with type QQuickItem.",
-                        "functionName": "leftMargin",
-                        "line": 302
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 39,
-                        "durationMicroseconds": 36,
-                        "errorMessage": "Cannot access value for name model",
-                        "functionName": "text",
-                        "line": 311
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 57,
-                        "durationMicroseconds": 180,
-                        "errorMessage": "",
-                        "functionName": "verticalCenter",
-                        "line": 308
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 47,
-                        "durationMicroseconds": 189,
-                        "errorMessage": "",
-                        "functionName": "left",
-                        "line": 309
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 53,
-                        "durationMicroseconds": 100,
-                        "errorMessage": "Cannot load property benchmark from (component in C:/Meta/Quick/music_player_demo/build/Desktop_Qt_6_8_0_MSVC2022_64bit-MinSizeRel/PageLocalFolderDetail.qml)::parent with type QQuickItem.",
-                        "functionName": "leftMargin",
-                        "line": 310
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 39,
-                        "durationMicroseconds": 39,
-                        "errorMessage": "Cannot access value for name model",
-                        "functionName": "text",
-                        "line": 319
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 57,
-                        "durationMicroseconds": 144,
-                        "errorMessage": "",
-                        "functionName": "verticalCenter",
                         "line": 316
                     },
                     {
                         "codegenSuccessfull": true,
+                        "column": 57,
+                        "durationMicroseconds": 128,
+                        "errorMessage": "",
+                        "functionName": "verticalCenter",
+                        "line": 313
+                    },
+                    {
+                        "codegenSuccessfull": true,
                         "column": 47,
-                        "durationMicroseconds": 119,
+                        "durationMicroseconds": 118,
                         "errorMessage": "",
                         "functionName": "left",
-                        "line": 317
+                        "line": 314
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 39,
+                        "durationMicroseconds": 41,
+                        "errorMessage": "Cannot access value for name model",
+                        "functionName": "text",
+                        "line": 324
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 57,
+                        "durationMicroseconds": 127,
+                        "errorMessage": "",
+                        "functionName": "verticalCenter",
+                        "line": 321
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 47,
+                        "durationMicroseconds": 115,
+                        "errorMessage": "",
+                        "functionName": "left",
+                        "line": 322
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 53,
-                        "durationMicroseconds": 92,
+                        "durationMicroseconds": 88,
                         "errorMessage": "Cannot load property benchmark from (component in C:/Meta/Quick/music_player_demo/build/Desktop_Qt_6_8_0_MSVC2022_64bit-MinSizeRel/PageLocalFolderDetail.qml)::parent with type QQuickItem.",
                         "functionName": "leftMargin",
-                        "line": 318
+                        "line": 323
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 39,
+                        "durationMicroseconds": 38,
+                        "errorMessage": "Cannot access value for name model",
+                        "functionName": "text",
+                        "line": 332
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 57,
+                        "durationMicroseconds": 123,
+                        "errorMessage": "",
+                        "functionName": "verticalCenter",
+                        "line": 329
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 47,
+                        "durationMicroseconds": 114,
+                        "errorMessage": "",
+                        "functionName": "left",
+                        "line": 330
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 53,
+                        "durationMicroseconds": 86,
+                        "errorMessage": "Cannot load property benchmark from (component in C:/Meta/Quick/music_player_demo/build/Desktop_Qt_6_8_0_MSVC2022_64bit-MinSizeRel/PageLocalFolderDetail.qml)::parent with type QQuickItem.",
+                        "functionName": "leftMargin",
+                        "line": 331
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 39,
+                        "durationMicroseconds": 38,
+                        "errorMessage": "Cannot access value for name model",
+                        "functionName": "text",
+                        "line": 340
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 57,
+                        "durationMicroseconds": 128,
+                        "errorMessage": "",
+                        "functionName": "verticalCenter",
+                        "line": 337
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 47,
+                        "durationMicroseconds": 123,
+                        "errorMessage": "",
+                        "functionName": "left",
+                        "line": 338
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 53,
+                        "durationMicroseconds": 90,
+                        "errorMessage": "Cannot load property benchmark from (component in C:/Meta/Quick/music_player_demo/build/Desktop_Qt_6_8_0_MSVC2022_64bit-MinSizeRel/PageLocalFolderDetail.qml)::parent with type QQuickItem.",
+                        "functionName": "leftMargin",
+                        "line": 339
                     }
                 ],
                 "filepath": "C:/Meta/Quick/music_player_demo/build/Desktop_Qt_6_8_0_MSVC2022_64bit-MinSizeRel/PageLocalFolderDetail.qml"

@@ -6,7 +6,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 38,
-                        "durationMicroseconds": 439,
+                        "durationMicroseconds": 515,
                         "errorMessage": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: QVariant -> QColor stored as QVariant",
                         "functionName": "handleHoverColor",
                         "line": 11
@@ -14,7 +14,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 38,
-                        "durationMicroseconds": 265,
+                        "durationMicroseconds": 259,
                         "errorMessage": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: QVariant -> QColor stored as QVariant",
                         "functionName": "handlePressColor",
                         "line": 12
@@ -22,7 +22,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 20,
-                        "durationMicroseconds": 484,
+                        "durationMicroseconds": 482,
                         "errorMessage": "",
                         "functionName": "implicitWidth",
                         "line": 16
@@ -30,7 +30,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 21,
-                        "durationMicroseconds": 470,
+                        "durationMicroseconds": 735,
                         "errorMessage": "",
                         "functionName": "implicitHeight",
                         "line": 18
@@ -38,7 +38,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 14,
-                        "durationMicroseconds": 222,
+                        "durationMicroseconds": 229,
                         "errorMessage": "",
                         "functionName": "visible",
                         "line": 22
@@ -46,7 +46,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 24,
-                        "durationMicroseconds": 73,
+                        "durationMicroseconds": 67,
                         "errorMessage": "Cannot access value for name handleWidth",
                         "functionName": "implicitWidth",
                         "line": 25
@@ -54,7 +54,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 25,
-                        "durationMicroseconds": 55,
+                        "durationMicroseconds": 41,
                         "errorMessage": "Cannot access value for name handleHeight",
                         "functionName": "implicitHeight",
                         "line": 26
@@ -62,7 +62,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 17,
-                        "durationMicroseconds": 142,
+                        "durationMicroseconds": 134,
                         "errorMessage": "",
                         "functionName": "radius",
                         "line": 28
@@ -78,7 +78,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 17,
-                        "durationMicroseconds": 610,
+                        "durationMicroseconds": 461,
                         "errorMessage": "",
                         "functionName": "opacity",
                         "line": 33

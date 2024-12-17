@@ -1,0 +1,196 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-MinSizeRel-8f0fd97b98f841cbe8a2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				}
+			],
+			"name" : "MinSizeRel",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "music_player_demo",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_aotstats::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_aotstats-MinSizeRel-130e1d3b47832742af5a.json",
+					"name" : "all_aotstats",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-MinSizeRel-5e22e6aca369dc6c83f4.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-MinSizeRel-721c6864c09b46493529.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-MinSizeRel-613f4c0d38e6ba3c0d93.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-MinSizeRel-334ad81b64554b2de406.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appmusic_player_demo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appmusic_player_demo-MinSizeRel-63f3395ad9f3e25647a6.json",
+					"name" : "appmusic_player_demo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appmusic_player_demo_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appmusic_player_demo_autogen-MinSizeRel-52b9cb0edf5ff2b34aa6.json",
+					"name" : "appmusic_player_demo_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appmusic_player_demo_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appmusic_player_demo_autogen_timestamp_deps-MinSizeRel-ca2bb4702494094b1259.json",
+					"name" : "appmusic_player_demo_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appmusic_player_demo_generate_qmlls_ini_file::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appmusic_player_demo_generate_qmlls_ini_file-MinSizeRel-03ff2575020c30979bd3.json",
+					"name" : "appmusic_player_demo_generate_qmlls_ini_file",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appmusic_player_demo_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appmusic_player_demo_qmlimportscan-MinSizeRel-605a960425261bace192.json",
+					"name" : "appmusic_player_demo_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appmusic_player_demo_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appmusic_player_demo_qmllint-MinSizeRel-977eae2c6e68ada4b656.json",
+					"name" : "appmusic_player_demo_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appmusic_player_demo_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appmusic_player_demo_qmllint_json-MinSizeRel-7bd694f5ad8d2b634702.json",
+					"name" : "appmusic_player_demo_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appmusic_player_demo_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appmusic_player_demo_qmllint_module-MinSizeRel-8f812328871eab248c1b.json",
+					"name" : "appmusic_player_demo_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appmusic_player_demo_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appmusic_player_demo_qmltyperegistration-MinSizeRel-573f3e20248ba626f150.json",
+					"name" : "appmusic_player_demo_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appmusic_player_demo_tooling::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appmusic_player_demo_tooling-MinSizeRel-fc25ad923a6400801a13.json",
+					"name" : "appmusic_player_demo_tooling",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "module_appmusic_player_demo_aotstats_targets::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-module_appmusic_player_demo_aotstats_targets-MinSizeRel-be160e0b5f411165f806.json",
+					"name" : "module_appmusic_player_demo_aotstats_targets",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Meta/Quick/music_player_demo/build/Desktop_Qt_6_8_0_MSVC2022_64bit-MinSizeRel",
+		"source" : "C:/Meta/Quick/music_player_demo"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

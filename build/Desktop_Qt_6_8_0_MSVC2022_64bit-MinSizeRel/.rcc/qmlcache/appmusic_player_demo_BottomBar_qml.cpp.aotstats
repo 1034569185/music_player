@@ -6,7 +6,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 12,
-                        "durationMicroseconds": 232,
+                        "durationMicroseconds": 250,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 10
@@ -78,7 +78,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 24,
-                        "durationMicroseconds": 320,
+                        "durationMicroseconds": 325,
                         "errorMessage": "Cannot access value for name m_music_Player",
                         "functionName": "width",
                         "line": 39
@@ -86,7 +86,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 25,
-                        "durationMicroseconds": 109,
+                        "durationMicroseconds": 111,
                         "errorMessage": "",
                         "functionName": "height",
                         "line": 40
@@ -94,7 +94,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 24,
-                        "durationMicroseconds": 28,
+                        "durationMicroseconds": 30,
                         "errorMessage": "Cannot retrieve a non-object type by ID: bottomBarSlider",
                         "functionName": "width",
                         "line": 44
@@ -102,7 +102,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 25,
-                        "durationMicroseconds": 100,
+                        "durationMicroseconds": 104,
                         "errorMessage": "",
                         "functionName": "height",
                         "line": 45
@@ -110,7 +110,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 28,
-                        "durationMicroseconds": 28,
+                        "durationMicroseconds": 30,
                         "errorMessage": "Cannot retrieve a non-object type by ID: bottomBarSlider",
                         "functionName": "onEntered",
                         "line": 53
@@ -118,7 +118,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 27,
-                        "durationMicroseconds": 19,
+                        "durationMicroseconds": 20,
                         "errorMessage": "Cannot retrieve a non-object type by ID: bottomBarSlider",
                         "functionName": "onExited",
                         "line": 56
@@ -126,7 +126,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 31,
-                        "durationMicroseconds": 73,
+                        "durationMicroseconds": 72,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 51
@@ -134,7 +134,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 29,
-                        "durationMicroseconds": 65,
+                        "durationMicroseconds": 70,
                         "errorMessage": "",
                         "functionName": "implicitHeight",
                         "line": 65
@@ -142,7 +142,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 16,
-                        "durationMicroseconds": 23,
+                        "durationMicroseconds": 25,
                         "errorMessage": "Cannot retrieve a non-object type by ID: bottomBarSlider",
                         "functionName": "x",
                         "line": 66
@@ -150,7 +150,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 16,
-                        "durationMicroseconds": 28,
+                        "durationMicroseconds": 29,
                         "errorMessage": "Cannot retrieve a non-object type by ID: bottomBarSlider",
                         "functionName": "y",
                         "line": 67
@@ -166,7 +166,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 21,
-                        "durationMicroseconds": 76,
+                        "durationMicroseconds": 74,
                         "errorMessage": "Cannot access value for name m_music_Player",
                         "functionName": "target",
                         "line": 107
@@ -182,7 +182,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 13,
-                        "durationMicroseconds": 17,
+                        "durationMicroseconds": 18,
                         "errorMessage": "Cannot retrieve a non-object type by ID: bottomBarSlider",
                         "functionName": "onPositionChanged",
                         "line": 109
@@ -190,7 +190,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 16,
-                        "durationMicroseconds": 178,
+                        "durationMicroseconds": 188,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 116
@@ -198,7 +198,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 17,
-                        "durationMicroseconds": 161,
+                        "durationMicroseconds": 155,
                         "errorMessage": "",
                         "functionName": "height",
                         "line": 117
@@ -206,7 +206,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 27,
-                        "durationMicroseconds": 67,
+                        "durationMicroseconds": 68,
                         "errorMessage": "",
                         "functionName": "centerIn",
                         "line": 118
@@ -214,7 +214,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 20,
-                        "durationMicroseconds": 162,
+                        "durationMicroseconds": 172,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 122
@@ -222,7 +222,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 21,
-                        "durationMicroseconds": 94,
+                        "durationMicroseconds": 97,
                         "errorMessage": "",
                         "functionName": "height",
                         "line": 123
@@ -230,7 +230,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 22,
-                        "durationMicroseconds": 340,
+                        "durationMicroseconds": 365,
                         "errorMessage": "Cannot access value for name m_music_Player",
                         "functionName": "visible",
                         "line": 127
@@ -238,7 +238,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 27,
-                        "durationMicroseconds": 140,
+                        "durationMicroseconds": 142,
                         "errorMessage": "",
                         "functionName": "left",
                         "line": 124
@@ -246,7 +246,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 37,
-                        "durationMicroseconds": 122,
+                        "durationMicroseconds": 182,
                         "errorMessage": "",
                         "functionName": "verticalCenter",
                         "line": 125
@@ -254,7 +254,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 24,
-                        "durationMicroseconds": 97,
+                        "durationMicroseconds": 105,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 130
@@ -262,7 +262,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 25,
-                        "durationMicroseconds": 60,
+                        "durationMicroseconds": 61,
                         "errorMessage": "",
                         "functionName": "height",
                         "line": 131
@@ -270,7 +270,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 26,
-                        "durationMicroseconds": 285,
+                        "durationMicroseconds": 299,
                         "errorMessage": "Cannot access value for name m_music_Player",
                         "functionName": "source",
                         "line": 132
@@ -278,7 +278,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 32,
-                        "durationMicroseconds": 370,
+                        "durationMicroseconds": 377,
                         "errorMessage": "Cannot access value for name musicLyricPage",
                         "functionName": "onClicked",
                         "line": 142
@@ -286,7 +286,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 35,
-                        "durationMicroseconds": 70,
+                        "durationMicroseconds": 71,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 141
@@ -294,7 +294,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 24,
-                        "durationMicroseconds": 125,
+                        "durationMicroseconds": 127,
                         "errorMessage": "Cannot load property spacing from (component in C:/Meta/Quick/music_player_demo/build/Desktop_Qt_6_8_0_MSVC2022_64bit-MinSizeRel/BottomBar.qml)::parent with type QQuickItem.",
                         "functionName": "width",
                         "line": 152
@@ -302,7 +302,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 41,
-                        "durationMicroseconds": 127,
+                        "durationMicroseconds": 132,
                         "errorMessage": "",
                         "functionName": "verticalCenter",
                         "line": 153
@@ -310,7 +310,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 28,
-                        "durationMicroseconds": 98,
+                        "durationMicroseconds": 162,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 156
@@ -318,7 +318,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 49,
-                        "durationMicroseconds": 164,
+                        "durationMicroseconds": 195,
                         "errorMessage": "",
                         "functionName": "maxWidth",
                         "line": 160
@@ -326,7 +326,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 32,
-                        "durationMicroseconds": 351,
+                        "durationMicroseconds": 371,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 161
@@ -334,7 +334,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 33,
-                        "durationMicroseconds": 203,
+                        "durationMicroseconds": 216,
                         "errorMessage": "",
                         "functionName": "height",
                         "line": 162
@@ -342,7 +342,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 38,
-                        "durationMicroseconds": 104,
+                        "durationMicroseconds": 113,
                         "errorMessage": "",
                         "functionName": "cursorShape",
                         "line": 165
@@ -350,7 +350,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 36,
-                        "durationMicroseconds": 393,
+                        "durationMicroseconds": 411,
                         "errorMessage": "Cannot access value for name musicLyricPage",
                         "functionName": "onClicked",
                         "line": 167
@@ -358,7 +358,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 36,
-                        "durationMicroseconds": 659,
+                        "durationMicroseconds": 694,
                         "errorMessage": "",
                         "functionName": "onEntered",
                         "line": 175
@@ -366,7 +366,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 49,
-                        "durationMicroseconds": 129,
+                        "durationMicroseconds": 171,
                         "errorMessage": "",
                         "functionName": "verticalCenter",
                         "line": 163
@@ -374,7 +374,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 53,
-                        "durationMicroseconds": 278,
+                        "durationMicroseconds": 492,
                         "errorMessage": "",
                         "functionName": "minWidth",
                         "line": 185
@@ -382,7 +382,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 36,
-                        "durationMicroseconds": 62,
+                        "durationMicroseconds": 320,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 186
@@ -390,7 +390,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 42,
-                        "durationMicroseconds": 115,
+                        "durationMicroseconds": 156,
                         "errorMessage": "",
                         "functionName": "orientation",
                         "line": 189
@@ -398,7 +398,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 40,
-                        "durationMicroseconds": 62,
+                        "durationMicroseconds": 124,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 192
@@ -406,7 +406,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 41,
-                        "durationMicroseconds": 58,
+                        "durationMicroseconds": 68,
                         "errorMessage": "",
                         "functionName": "height",
                         "line": 193
@@ -414,7 +414,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 39,
-                        "durationMicroseconds": 550,
+                        "durationMicroseconds": 512,
                         "errorMessage": "Cannot access value for name m_music_Player",
                         "functionName": "text",
                         "line": 195
@@ -430,7 +430,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 57,
-                        "durationMicroseconds": 58,
+                        "durationMicroseconds": 47,
                         "errorMessage": "",
                         "functionName": "onContentHeightChanged",
                         "line": 197
@@ -438,7 +438,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 49,
-                        "durationMicroseconds": 40,
+                        "durationMicroseconds": 45,
                         "errorMessage": "Cannot access value for name bottomBar",
                         "functionName": "pointSize",
                         "line": 194
@@ -446,7 +446,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 37,
-                        "durationMicroseconds": 83,
+                        "durationMicroseconds": 91,
                         "errorMessage": "",
                         "functionName": "target",
                         "line": 212
@@ -454,7 +454,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 40,
-                        "durationMicroseconds": 135,
+                        "durationMicroseconds": 143,
                         "errorMessage": "",
                         "functionName": "onStopped",
                         "line": 216
@@ -462,7 +462,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 42,
-                        "durationMicroseconds": 84,
+                        "durationMicroseconds": 91,
                         "errorMessage": "",
                         "functionName": "type",
                         "line": 215
@@ -470,7 +470,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 33,
-                        "durationMicroseconds": 69,
+                        "durationMicroseconds": 70,
                         "errorMessage": "",
                         "functionName": "height",
                         "line": 227
@@ -478,7 +478,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 38,
-                        "durationMicroseconds": 87,
+                        "durationMicroseconds": 107,
                         "errorMessage": "",
                         "functionName": "cursorShape",
                         "line": 228
@@ -486,7 +486,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 37,
-                        "durationMicroseconds": 103,
+                        "durationMicroseconds": 108,
                         "errorMessage": "",
                         "functionName": "iconSource",
                         "line": 229
@@ -494,7 +494,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 36,
-                        "durationMicroseconds": 440,
+                        "durationMicroseconds": 453,
                         "errorMessage": "Cannot access value for name m_music_Player",
                         "functionName": "onClicked",
                         "line": 235
@@ -502,7 +502,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 49,
-                        "durationMicroseconds": 187,
+                        "durationMicroseconds": 143,
                         "errorMessage": "",
                         "functionName": "verticalCenter",
                         "line": 234
@@ -510,7 +510,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 48,
-                        "durationMicroseconds": 466,
+                        "durationMicroseconds": 479,
                         "errorMessage": "Cannot access value for name FavoriteManager",
                         "functionName": "onCompleted",
                         "line": 247
@@ -518,7 +518,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 45,
-                        "durationMicroseconds": 101,
+                        "durationMicroseconds": 103,
                         "errorMessage": "",
                         "functionName": "maxWidth",
                         "line": 261
@@ -526,7 +526,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 47,
-                        "durationMicroseconds": 186,
+                        "durationMicroseconds": 191,
                         "errorMessage": "",
                         "functionName": "childWidth",
                         "line": 262
@@ -534,7 +534,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 28,
-                        "durationMicroseconds": 329,
+                        "durationMicroseconds": 491,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 263
@@ -542,7 +542,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 29,
-                        "durationMicroseconds": 90,
+                        "durationMicroseconds": 1991,
                         "errorMessage": "",
                         "functionName": "height",
                         "line": 264
@@ -550,7 +550,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 32,
-                        "durationMicroseconds": 621,
+                        "durationMicroseconds": 756,
                         "errorMessage": "",
                         "functionName": "onEntered",
                         "line": 267
@@ -558,7 +558,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 49,
-                        "durationMicroseconds": 238,
+                        "durationMicroseconds": 270,
                         "errorMessage": "",
                         "functionName": "minWidth",
                         "line": 276
@@ -566,7 +566,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 32,
-                        "durationMicroseconds": 59,
+                        "durationMicroseconds": 82,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 277
@@ -574,7 +574,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 38,
-                        "durationMicroseconds": 90,
+                        "durationMicroseconds": 103,
                         "errorMessage": "",
                         "functionName": "orientation",
                         "line": 280
@@ -582,7 +582,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 35,
-                        "durationMicroseconds": 481,
+                        "durationMicroseconds": 508,
                         "errorMessage": "Cannot access value for name m_music_Player",
                         "functionName": "text",
                         "line": 287
@@ -590,7 +590,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 53,
-                        "durationMicroseconds": 140,
+                        "durationMicroseconds": 138,
                         "errorMessage": "",
                         "functionName": "verticalCenter",
                         "line": 284
@@ -598,7 +598,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 45,
-                        "durationMicroseconds": 39,
+                        "durationMicroseconds": 45,
                         "errorMessage": "Cannot access value for name fontSize",
                         "functionName": "pointSize",
                         "line": 286
@@ -606,7 +606,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 46,
-                        "durationMicroseconds": 96,
+                        "durationMicroseconds": 115,
                         "errorMessage": "",
                         "functionName": "cursorShape",
                         "line": 294
@@ -614,7 +614,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 44,
-                        "durationMicroseconds": 13,
+                        "durationMicroseconds": 14,
                         "errorMessage": "Instruction \"generate_PushBlockContext\" not implemented",
                         "functionName": "onClicked",
                         "line": 295
@@ -622,7 +622,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 44,
-                        "durationMicroseconds": 23,
+                        "durationMicroseconds": 26,
                         "errorMessage": "Type (component in C:/Meta/Quick/music_player_demo/build/Desktop_Qt_6_8_0_MSVC2022_64bit-MinSizeRel/BottomBar.qml)::parent with type QQuickItem does not have a property isHoverd for writing",
                         "functionName": "onEntered",
                         "line": 307
@@ -638,7 +638,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 47,
-                        "durationMicroseconds": 65,
+                        "durationMicroseconds": 68,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 292
@@ -646,7 +646,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 33,
-                        "durationMicroseconds": 80,
+                        "durationMicroseconds": 81,
                         "errorMessage": "",
                         "functionName": "target",
                         "line": 323
@@ -654,7 +654,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 36,
-                        "durationMicroseconds": 130,
+                        "durationMicroseconds": 135,
                         "errorMessage": "",
                         "functionName": "onStopped",
                         "line": 328
@@ -662,7 +662,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 38,
-                        "durationMicroseconds": 85,
+                        "durationMicroseconds": 88,
                         "errorMessage": "",
                         "functionName": "type",
                         "line": 327
@@ -670,7 +670,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 40,
-                        "durationMicroseconds": 92,
+                        "durationMicroseconds": 93,
                         "errorMessage": "Instruction \"generate_CmpInstanceOf\" not implemented",
                         "functionName": "onCompleted",
                         "line": 341
@@ -678,7 +678,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 20,
-                        "durationMicroseconds": 153,
+                        "durationMicroseconds": 162,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 354
@@ -686,7 +686,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 31,
-                        "durationMicroseconds": 69,
+                        "durationMicroseconds": 65,
                         "errorMessage": "",
                         "functionName": "centerIn",
                         "line": 356
@@ -694,7 +694,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 25,
-                        "durationMicroseconds": 70,
+                        "durationMicroseconds": 67,
                         "errorMessage": "",
                         "functionName": "height",
                         "line": 361
@@ -702,7 +702,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 30,
-                        "durationMicroseconds": 147,
+                        "durationMicroseconds": 94,
                         "errorMessage": "",
                         "functionName": "cursorShape",
                         "line": 362
@@ -710,7 +710,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 28,
-                        "durationMicroseconds": 429,
+                        "durationMicroseconds": 441,
                         "errorMessage": "Cannot access value for name m_music_Player",
                         "functionName": "onClicked",
                         "line": 367
@@ -718,7 +718,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 28,
-                        "durationMicroseconds": 53,
+                        "durationMicroseconds": 56,
                         "errorMessage": "",
                         "functionName": "onClicked",
                         "line": 367
@@ -734,7 +734,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 40,
-                        "durationMicroseconds": 433,
+                        "durationMicroseconds": 424,
                         "errorMessage": "Cannot access value for name m_music_Player",
                         "functionName": "onCompleted",
                         "line": 370
@@ -742,7 +742,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 25,
-                        "durationMicroseconds": 75,
+                        "durationMicroseconds": 73,
                         "errorMessage": "",
                         "functionName": "height",
                         "line": 405
@@ -750,7 +750,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 30,
-                        "durationMicroseconds": 93,
+                        "durationMicroseconds": 94,
                         "errorMessage": "",
                         "functionName": "cursorShape",
                         "line": 406
@@ -758,58 +758,10 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 28,
-                        "durationMicroseconds": 414,
-                        "errorMessage": "Cannot access value for name m_music_Player",
+                        "durationMicroseconds": 358,
+                        "errorMessage": "Cannot access value for name metaHandle",
                         "functionName": "onClicked",
                         "line": 410
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 28,
-                        "durationMicroseconds": 54,
-                        "errorMessage": "",
-                        "functionName": "onClicked",
-                        "line": 410
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 25,
-                        "durationMicroseconds": 67,
-                        "errorMessage": "",
-                        "functionName": "height",
-                        "line": 416
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 30,
-                        "durationMicroseconds": 88,
-                        "errorMessage": "",
-                        "functionName": "cursorShape",
-                        "line": 417
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 29,
-                        "durationMicroseconds": 420,
-                        "errorMessage": "Cannot access value for name m_music_Player",
-                        "functionName": "iconSource",
-                        "line": 419
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 34,
-                        "durationMicroseconds": 85,
-                        "errorMessage": "",
-                        "functionName": "transformOrigin",
-                        "line": 422
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 28,
-                        "durationMicroseconds": 413,
-                        "errorMessage": "Cannot access value for name m_music_Player",
-                        "functionName": "onClicked",
-                        "line": 423
                     },
                     {
                         "codegenSuccessfull": true,
@@ -817,12 +769,60 @@
                         "durationMicroseconds": 55,
                         "errorMessage": "",
                         "functionName": "onClicked",
+                        "line": 410
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 25,
+                        "durationMicroseconds": 159,
+                        "errorMessage": "",
+                        "functionName": "height",
+                        "line": 416
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 30,
+                        "durationMicroseconds": 99,
+                        "errorMessage": "",
+                        "functionName": "cursorShape",
+                        "line": 417
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 29,
+                        "durationMicroseconds": 467,
+                        "errorMessage": "Cannot access value for name m_music_Player",
+                        "functionName": "iconSource",
+                        "line": 419
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 34,
+                        "durationMicroseconds": 97,
+                        "errorMessage": "",
+                        "functionName": "transformOrigin",
+                        "line": 422
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 28,
+                        "durationMicroseconds": 421,
+                        "errorMessage": "Cannot access value for name m_music_Player",
+                        "functionName": "onClicked",
                         "line": 423
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 28,
-                        "durationMicroseconds": 78,
+                        "durationMicroseconds": 70,
+                        "errorMessage": "",
+                        "functionName": "onClicked",
+                        "line": 423
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 28,
+                        "durationMicroseconds": 92,
                         "errorMessage": "",
                         "functionName": "onEntered",
                         "line": 431
@@ -830,7 +830,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 27,
-                        "durationMicroseconds": 73,
+                        "durationMicroseconds": 86,
                         "errorMessage": "",
                         "functionName": "onExited",
                         "line": 434
@@ -838,7 +838,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 38,
-                        "durationMicroseconds": 99,
+                        "durationMicroseconds": 92,
                         "errorMessage": "",
                         "functionName": "type",
                         "line": 441
@@ -846,7 +846,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 25,
-                        "durationMicroseconds": 67,
+                        "durationMicroseconds": 68,
                         "errorMessage": "",
                         "functionName": "height",
                         "line": 447
@@ -862,7 +862,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 34,
-                        "durationMicroseconds": 77,
+                        "durationMicroseconds": 76,
                         "errorMessage": "",
                         "functionName": "transformOrigin",
                         "line": 452
@@ -870,58 +870,10 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 28,
-                        "durationMicroseconds": 404,
-                        "errorMessage": "Cannot access value for name m_music_Player",
+                        "durationMicroseconds": 346,
+                        "errorMessage": "Cannot access value for name metaHandle",
                         "functionName": "onClicked",
                         "line": 454
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 28,
-                        "durationMicroseconds": 52,
-                        "errorMessage": "",
-                        "functionName": "onClicked",
-                        "line": 454
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 25,
-                        "durationMicroseconds": 65,
-                        "errorMessage": "",
-                        "functionName": "height",
-                        "line": 462
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 30,
-                        "durationMicroseconds": 86,
-                        "errorMessage": "",
-                        "functionName": "cursorShape",
-                        "line": 463
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 28,
-                        "durationMicroseconds": 258,
-                        "errorMessage": "Cannot access value for name window",
-                        "functionName": "iconColor",
-                        "line": 466
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 34,
-                        "durationMicroseconds": 83,
-                        "errorMessage": "",
-                        "functionName": "transformOrigin",
-                        "line": 468
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 28,
-                        "durationMicroseconds": 284,
-                        "errorMessage": "Cannot access value for name window",
-                        "functionName": "onClicked",
-                        "line": 470
                     },
                     {
                         "codegenSuccessfull": true,
@@ -929,12 +881,60 @@
                         "durationMicroseconds": 54,
                         "errorMessage": "",
                         "functionName": "onClicked",
+                        "line": 454
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 25,
+                        "durationMicroseconds": 79,
+                        "errorMessage": "",
+                        "functionName": "height",
+                        "line": 462
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 30,
+                        "durationMicroseconds": 89,
+                        "errorMessage": "",
+                        "functionName": "cursorShape",
+                        "line": 463
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 28,
+                        "durationMicroseconds": 280,
+                        "errorMessage": "Cannot access value for name window",
+                        "functionName": "iconColor",
+                        "line": 466
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 34,
+                        "durationMicroseconds": 84,
+                        "errorMessage": "",
+                        "functionName": "transformOrigin",
+                        "line": 468
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 28,
+                        "durationMicroseconds": 287,
+                        "errorMessage": "Cannot access value for name window",
+                        "functionName": "onClicked",
+                        "line": 470
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 28,
+                        "durationMicroseconds": 55,
+                        "errorMessage": "",
+                        "functionName": "onClicked",
                         "line": 470
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 36,
-                        "durationMicroseconds": 83,
+                        "durationMicroseconds": 96,
                         "errorMessage": "Instruction \"generate_CmpInstanceOf\" not implemented",
                         "functionName": "onCompleted",
                         "line": 491
@@ -942,7 +942,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 20,
-                        "durationMicroseconds": 165,
+                        "durationMicroseconds": 158,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 503
@@ -950,7 +950,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 28,
-                        "durationMicroseconds": 159,
+                        "durationMicroseconds": 163,
                         "errorMessage": "",
                         "functionName": "right",
                         "line": 505
@@ -958,7 +958,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 37,
-                        "durationMicroseconds": 118,
+                        "durationMicroseconds": 123,
                         "errorMessage": "",
                         "functionName": "verticalCenter",
                         "line": 506
@@ -966,7 +966,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 41,
-                        "durationMicroseconds": 126,
+                        "durationMicroseconds": 124,
                         "errorMessage": "",
                         "functionName": "verticalCenter",
                         "line": 509
@@ -974,7 +974,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 34,
-                        "durationMicroseconds": 88,
+                        "durationMicroseconds": 92,
                         "errorMessage": "",
                         "functionName": "family",
                         "line": 512
@@ -982,7 +982,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 37,
-                        "durationMicroseconds": 86,
+                        "durationMicroseconds": 90,
                         "errorMessage": "",
                         "functionName": "pointSize",
                         "line": 514
@@ -990,7 +990,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 44,
-                        "durationMicroseconds": 29,
+                        "durationMicroseconds": 31,
                         "errorMessage": "",
                         "functionName": "onCompleted",
                         "line": 517
@@ -998,7 +998,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 34,
-                        "durationMicroseconds": 83,
+                        "durationMicroseconds": 89,
                         "errorMessage": "",
                         "functionName": "family",
                         "line": 523
@@ -1006,7 +1006,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 37,
-                        "durationMicroseconds": 85,
+                        "durationMicroseconds": 154,
                         "errorMessage": "",
                         "functionName": "pointSize",
                         "line": 525
@@ -1014,7 +1014,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 30,
-                        "durationMicroseconds": 90,
+                        "durationMicroseconds": 97,
                         "errorMessage": "",
                         "functionName": "cursorShape",
                         "line": 534
@@ -1022,15 +1022,47 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 40,
-                        "durationMicroseconds": 378,
+                        "durationMicroseconds": 345,
                         "errorMessage": "Cannot access value for name thisTheme",
                         "functionName": "sliderBackgroundColor",
                         "line": 537
                     },
                     {
+                        "codegenSuccessfull": true,
+                        "column": 25,
+                        "durationMicroseconds": 69,
+                        "errorMessage": "",
+                        "functionName": "height",
+                        "line": 548
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 30,
+                        "durationMicroseconds": 92,
+                        "errorMessage": "",
+                        "functionName": "cursorShape",
+                        "line": 550
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 28,
+                        "durationMicroseconds": 554,
+                        "errorMessage": "Cannot access value for name p_qcThisPlayListLable",
+                        "functionName": "onClicked",
+                        "line": 554
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 28,
+                        "durationMicroseconds": 55,
+                        "errorMessage": "",
+                        "functionName": "onClicked",
+                        "line": 554
+                    },
+                    {
                         "codegenSuccessfull": false,
                         "column": 36,
-                        "durationMicroseconds": 87,
+                        "durationMicroseconds": 88,
                         "errorMessage": "Instruction \"generate_CmpInstanceOf\" not implemented",
                         "functionName": "onCompleted",
                         "line": 568

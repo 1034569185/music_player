@@ -13,7 +13,6 @@ QCToolTipButton 1.0 qcComponent/QCToolTipButton.qml
 QCVolumeBtn 1.0 qcComponent/QCVolumeBtn.qml
 PageFindMusic 1.0 pageQml/PageFindMusic.qml
 QCScrollBar 1.0 qcComponent/QCScrollBar.qml
-QCMusicPlayer 1.0 QCMusicPlayer.qml
 PageLocalFolderDetail 1.0 pageQml/PageLocalFolderDetail.qml
 Tools 1.0 pageQml/Tools.qml
 MetaManager 1.0 MetaManager.qml

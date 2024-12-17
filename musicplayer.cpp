@@ -8,6 +8,7 @@ MusicPlayer::MusicPlayer(QMediaPlayer *parent)
 {
     this->audioOutput->setVolume(0.35);
     this->setAudioOutput(this->audioOutput);
+
 }
 
 void MusicPlayer::m_play()
@@ -48,12 +49,36 @@ QMediaMetaData MusicPlayer::getMetaData()
 {
     QMediaMetaData e = this->metaData();
 
-    QList<QMediaMetaData::Key> keys = e.keys();
-    for( QMediaMetaData::Key k : keys )
-        qDebug() << e[k];
+    // QList<QMediaMetaData::Key> keys = e.keys();
+    // for( QMediaMetaData::Key k : keys )
+    //     qDebug() << e[k];
     // qDebug() <<
 
     return this->metaData();
+}
+
+float MusicPlayer::getLastVolume() const
+{
+    return lastVolume;
+}
+
+void MusicPlayer::setLastVolume(float newLastVolume)
+{
+    if (qFuzzyCompare(lastVolume, newLastVolume))
+        return;
+    lastVolume = newLastVolume;
+    emit lastVolumeChanged();
+}
+
+float MusicPlayer::volume() const
+{
+    return this->audioOutput->volume();
+}
+
+void MusicPlayer::setVolume(float newVolume)
+{
+    this->audioOutput->setVolume(newVolume);
+    emit volumeChanged();
 }
 
 

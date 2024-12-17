@@ -105,7 +105,7 @@ MouseArea {
             anchors.centerIn: parent
             orientation: Qt.Vertical
             from: 0.
-            value: p_music_Player.volume
+            value: m_music_Player.volume
             to: 1.
             background: Rectangle {
                 radius: width/2
@@ -130,8 +130,8 @@ MouseArea {
                 radius: 100
             }
             onMoved: {
-                p_music_Player.lastVolume = p_music_Player.volume
-                p_music_Player.volume = value
+                m_music_Player.lastVolume = m_music_Player.volume
+                m_music_Player.volume = value
             }
         }
     }
@@ -149,10 +149,10 @@ MouseArea {
         iconColor: btnIconColor
         onClicked: function (mouse) {
             mouse.accepted = false
-            if(p_music_Player.volume !== 0 ) {
-                p_music_Player.volume = 0
+            if(m_music_Player.volume !== 0 ) {
+                m_music_Player.volume = 0
             } else {
-                p_music_Player.volume = p_music_Player.lastVolume
+                m_music_Player.volume = m_music_Player.lastVolume
             }
         }
         onEntered: {

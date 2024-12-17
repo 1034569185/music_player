@@ -6,7 +6,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 32,
-                        "durationMicroseconds": 265,
+                        "durationMicroseconds": 301,
                         "errorMessage": "",
                         "functionName": "themeName",
                         "line": 10
@@ -14,7 +14,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 29,
-                        "durationMicroseconds": 649,
+                        "durationMicroseconds": 706,
                         "errorMessage": "Cannot generate efficient code for storing an array in a non-sequence type",
                         "functionName": "themeData",
                         "line": 13
@@ -22,7 +22,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 26,
-                        "durationMicroseconds": 329,
+                        "durationMicroseconds": 379,
                         "errorMessage": "",
                         "functionName": "config",
                         "line": 17
@@ -30,7 +30,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 21,
-                        "durationMicroseconds": 63,
+                        "durationMicroseconds": 75,
                         "errorMessage": "Type (component in C:/Meta/Quick/music_player_demo/build/Desktop_Qt_6_8_0_MSVC2022_64bit-MinSizeRel/ThemeManager.qml)::config with type QVariant does not have a property name for writing",
                         "functionName": "onThemeChanged",
                         "line": 45
@@ -62,7 +62,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 5,
-                        "durationMicroseconds": 249,
+                        "durationMicroseconds": 247,
                         "errorMessage": "Cannot access value for name QCTool",
                         "functionName": "updateUserData",
                         "line": 139

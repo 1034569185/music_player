@@ -10,6 +10,8 @@ import QtCore
 
 FramelessWindow {
     id: window
+    x: 420
+    y: 150
     width: 1010
     height: 710
     minimumWidth: 1010
@@ -37,10 +39,6 @@ FramelessWindow {
      //         source:  "data:image/png;base64," + m_music_Player.coverImage
      //     }
      // }
-
-    QCMusicPlayer {
-        id: p_music_Player
-    }
 
     MusicPlayer {
         id: m_music_Player

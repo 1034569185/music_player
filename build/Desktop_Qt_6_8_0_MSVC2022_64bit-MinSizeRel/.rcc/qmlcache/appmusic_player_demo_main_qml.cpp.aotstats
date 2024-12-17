@@ -9,79 +9,79 @@
                         "durationMicroseconds": 188,
                         "errorMessage": "",
                         "functionName": "fill",
-                        "line": 59
+                        "line": 57
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 20,
-                        "durationMicroseconds": 126,
+                        "durationMicroseconds": 143,
                         "errorMessage": "",
                         "functionName": "width",
-                        "line": 62
+                        "line": 60
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 20,
-                        "durationMicroseconds": 101,
+                        "durationMicroseconds": 110,
                         "errorMessage": "",
                         "functionName": "width",
-                        "line": 69
+                        "line": 67
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 21,
-                        "durationMicroseconds": 22,
+                        "durationMicroseconds": 23,
                         "errorMessage": "Cannot retrieve a non-object type by ID: window",
                         "functionName": "height",
-                        "line": 70
+                        "line": 68
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 24,
-                        "durationMicroseconds": 98,
+                        "durationMicroseconds": 101,
                         "errorMessage": "",
                         "functionName": "width",
-                        "line": 72
+                        "line": 70
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 25,
-                        "durationMicroseconds": 91,
+                        "durationMicroseconds": 92,
                         "errorMessage": "",
                         "functionName": "height",
-                        "line": 73
+                        "line": 71
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 28,
-                        "durationMicroseconds": 212,
+                        "durationMicroseconds": 216,
                         "errorMessage": "",
                         "functionName": "width",
-                        "line": 79
+                        "line": 77
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 29,
-                        "durationMicroseconds": 95,
+                        "durationMicroseconds": 94,
                         "errorMessage": "",
                         "functionName": "height",
-                        "line": 80
+                        "line": 78
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 30,
-                        "durationMicroseconds": 92,
+                        "durationMicroseconds": 89,
                         "errorMessage": "",
                         "functionName": "thisQml",
-                        "line": 81
+                        "line": 79
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 20,
-                        "durationMicroseconds": 96,
+                        "durationMicroseconds": 97,
                         "errorMessage": "",
                         "functionName": "width",
-                        "line": 88
+                        "line": 86
                     }
                 ],
                 "filepath": "C:/Meta/Quick/music_player_demo/build/Desktop_Qt_6_8_0_MSVC2022_64bit-MinSizeRel/main.qml"

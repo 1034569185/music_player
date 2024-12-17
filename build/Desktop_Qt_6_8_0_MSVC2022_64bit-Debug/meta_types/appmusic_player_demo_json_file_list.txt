@@ -1,2 +1,0 @@
-C:/Meta/Quick/music_player_demo/build/Desktop_Qt_6_8_0_MSVC2022_64bit-Debug/appmusic_player_demo_autogen/include/../EWIEGA46WW/moc_framelesswindow.cpp.json
-C:/Meta/Quick/music_player_demo/build/Desktop_Qt_6_8_0_MSVC2022_64bit-Debug/appmusic_player_demo_autogen/include/../EWIEGA46WW/moc_musicplayer.cpp.json

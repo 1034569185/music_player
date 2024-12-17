@@ -6,7 +6,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 33,
-                        "durationMicroseconds": 944,
+                        "durationMicroseconds": 1100,
                         "errorMessage": "Cannot generate efficient code for storing an array in a non-sequence type",
                         "functionName": "findMusicData",
                         "line": 9
@@ -14,7 +14,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 31,
-                        "durationMicroseconds": 1271,
+                        "durationMicroseconds": 1211,
                         "errorMessage": "Cannot generate efficient code for storing an array in a non-sequence type",
                         "functionName": "myMusicData",
                         "line": 17
@@ -22,7 +22,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 40,
-                        "durationMicroseconds": 231,
+                        "durationMicroseconds": 228,
                         "errorMessage": "Cannot generate efficient code for storing an array in a non-sequence type",
                         "functionName": "myCreatePlaylistData",
                         "line": 28
@@ -30,7 +30,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 13,
-                        "durationMicroseconds": 155,
+                        "durationMicroseconds": 151,
                         "errorMessage": "",
                         "functionName": "height",
                         "line": 42
@@ -46,7 +46,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 16,
-                        "durationMicroseconds": 102,
+                        "durationMicroseconds": 101,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 47
@@ -54,7 +54,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 17,
-                        "durationMicroseconds": 92,
+                        "durationMicroseconds": 93,
                         "errorMessage": "",
                         "functionName": "height",
                         "line": 48
@@ -70,7 +70,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 23,
-                        "durationMicroseconds": 58,
+                        "durationMicroseconds": 60,
                         "errorMessage": "",
                         "functionName": "contentWidth",
                         "line": 50
@@ -94,7 +94,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 24,
-                        "durationMicroseconds": 28,
+                        "durationMicroseconds": 29,
                         "errorMessage": "Cannot load property btnData from (component in C:/Meta/Quick/music_player_demo/build/Desktop_Qt_6_8_0_MSVC2022_64bit-MinSizeRel/LeftBar.qml)::findMusicData with type QVariant.",
                         "functionName": "model",
                         "line": 60
@@ -110,7 +110,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 28,
-                        "durationMicroseconds": 98,
+                        "durationMicroseconds": 99,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 62
@@ -118,7 +118,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 29,
-                        "durationMicroseconds": 309,
+                        "durationMicroseconds": 306,
                         "errorMessage": "",
                         "functionName": "height",
                         "line": 63
@@ -126,7 +126,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 28,
-                        "durationMicroseconds": 99,
+                        "durationMicroseconds": 96,
                         "errorMessage": "",
                         "functionName": "elide",
                         "line": 66
@@ -142,7 +142,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 35,
-                        "durationMicroseconds": 136,
+                        "durationMicroseconds": 140,
                         "errorMessage": "",
                         "functionName": "left",
                         "line": 64
@@ -150,7 +150,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 37,
-                        "durationMicroseconds": 41,
+                        "durationMicroseconds": 38,
                         "errorMessage": "Cannot access value for name leftBar",
                         "functionName": "pointSize",
                         "line": 67
@@ -158,7 +158,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 24,
-                        "durationMicroseconds": 96,
+                        "durationMicroseconds": 97,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 75
@@ -166,7 +166,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 25,
-                        "durationMicroseconds": 61,
+                        "durationMicroseconds": 62,
                         "errorMessage": "",
                         "functionName": "height",
                         "line": 76
@@ -174,7 +174,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 24,
-                        "durationMicroseconds": 25,
+                        "durationMicroseconds": 24,
                         "errorMessage": "Cannot load property btnData from (component in C:/Meta/Quick/music_player_demo/build/Desktop_Qt_6_8_0_MSVC2022_64bit-MinSizeRel/LeftBar.qml)::myMusicData with type QVariant.",
                         "functionName": "model",
                         "line": 79
@@ -182,7 +182,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 27,
-                        "durationMicroseconds": 69,
+                        "durationMicroseconds": 68,
                         "errorMessage": "",
                         "functionName": "delegate",
                         "line": 90
@@ -190,7 +190,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 28,
-                        "durationMicroseconds": 98,
+                        "durationMicroseconds": 97,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 81
@@ -198,7 +198,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 29,
-                        "durationMicroseconds": 600,
+                        "durationMicroseconds": 303,
                         "errorMessage": "",
                         "functionName": "height",
                         "line": 82
@@ -206,7 +206,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 27,
-                        "durationMicroseconds": 47,
+                        "durationMicroseconds": 40,
                         "errorMessage": "Cannot access value for name leftBar",
                         "functionName": "text",
                         "line": 86
@@ -214,7 +214,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 28,
-                        "durationMicroseconds": 152,
+                        "durationMicroseconds": 92,
                         "errorMessage": "",
                         "functionName": "elide",
                         "line": 87
@@ -222,7 +222,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 35,
-                        "durationMicroseconds": 131,
+                        "durationMicroseconds": 219,
                         "errorMessage": "",
                         "functionName": "left",
                         "line": 83
@@ -230,7 +230,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 37,
-                        "durationMicroseconds": 40,
+                        "durationMicroseconds": 42,
                         "errorMessage": "Cannot access value for name leftBar",
                         "functionName": "pointSize",
                         "line": 85
@@ -238,7 +238,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 24,
-                        "durationMicroseconds": 117,
+                        "durationMicroseconds": 137,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 95
@@ -246,7 +246,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 25,
-                        "durationMicroseconds": 333,
+                        "durationMicroseconds": 64,
                         "errorMessage": "",
                         "functionName": "height",
                         "line": 96
@@ -254,7 +254,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 24,
-                        "durationMicroseconds": 29,
+                        "durationMicroseconds": 27,
                         "errorMessage": "Cannot load property btnData from (component in C:/Meta/Quick/music_player_demo/build/Desktop_Qt_6_8_0_MSVC2022_64bit-MinSizeRel/LeftBar.qml)::myCreatePlaylistData with type QVariant.",
                         "functionName": "model",
                         "line": 99
@@ -262,7 +262,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 27,
-                        "durationMicroseconds": 73,
+                        "durationMicroseconds": 71,
                         "errorMessage": "",
                         "functionName": "delegate",
                         "line": 100
@@ -270,7 +270,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 28,
-                        "durationMicroseconds": 96,
+                        "durationMicroseconds": 95,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 102
@@ -278,7 +278,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 29,
-                        "durationMicroseconds": 266,
+                        "durationMicroseconds": 271,
                         "errorMessage": "",
                         "functionName": "height",
                         "line": 103
@@ -286,7 +286,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 32,
-                        "durationMicroseconds": 166,
+                        "durationMicroseconds": 162,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 105
@@ -294,7 +294,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 33,
-                        "durationMicroseconds": 214,
+                        "durationMicroseconds": 231,
                         "errorMessage": "",
                         "functionName": "height",
                         "line": 106
@@ -302,7 +302,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 32,
-                        "durationMicroseconds": 89,
+                        "durationMicroseconds": 90,
                         "errorMessage": "",
                         "functionName": "elide",
                         "line": 107
@@ -310,7 +310,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 31,
-                        "durationMicroseconds": 44,
+                        "durationMicroseconds": 43,
                         "errorMessage": "Cannot access value for name leftBar",
                         "functionName": "text",
                         "line": 111
@@ -318,7 +318,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 39,
-                        "durationMicroseconds": 197,
+                        "durationMicroseconds": 266,
                         "errorMessage": "",
                         "functionName": "left",
                         "line": 108
@@ -326,7 +326,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 41,
-                        "durationMicroseconds": 41,
+                        "durationMicroseconds": 45,
                         "errorMessage": "Cannot access value for name leftBar",
                         "functionName": "pointSize",
                         "line": 110
@@ -334,7 +334,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 33,
-                        "durationMicroseconds": 69,
+                        "durationMicroseconds": 74,
                         "errorMessage": "",
                         "functionName": "height",
                         "line": 118
@@ -342,7 +342,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 38,
-                        "durationMicroseconds": 105,
+                        "durationMicroseconds": 113,
                         "errorMessage": "",
                         "functionName": "cursorShape",
                         "line": 119
@@ -350,7 +350,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 40,
-                        "durationMicroseconds": 129,
+                        "durationMicroseconds": 130,
                         "errorMessage": "",
                         "functionName": "right",
                         "line": 115
@@ -366,7 +366,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 43,
-                        "durationMicroseconds": 75,
+                        "durationMicroseconds": 77,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 122
@@ -382,7 +382,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 20,
-                        "durationMicroseconds": 31,
+                        "durationMicroseconds": 32,
                         "errorMessage": "Cannot access value for name leftBarFlickable",
                         "functionName": "width",
                         "line": 151
@@ -390,7 +390,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 21,
-                        "durationMicroseconds": 24,
+                        "durationMicroseconds": 27,
                         "errorMessage": "Cannot access value for name leftBar",
                         "functionName": "height",
                         "line": 152
@@ -406,7 +406,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 30,
-                        "durationMicroseconds": 365,
+                        "durationMicroseconds": 344,
                         "errorMessage": "",
                         "functionName": "onParentChanged",
                         "line": 220
@@ -414,7 +414,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 24,
-                        "durationMicroseconds": 108,
+                        "durationMicroseconds": 104,
                         "errorMessage": "Cannot load property isThisBtn from (component in C:/Meta/Quick/music_player_demo/build/Desktop_Qt_6_8_0_MSVC2022_64bit-MinSizeRel/LeftBar.qml)::parent with type QQuickItem.",
                         "functionName": "width",
                         "line": 157
@@ -422,7 +422,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 25,
-                        "durationMicroseconds": 102,
+                        "durationMicroseconds": 103,
                         "errorMessage": "",
                         "functionName": "height",
                         "line": 158
@@ -430,7 +430,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 24,
-                        "durationMicroseconds": 90,
+                        "durationMicroseconds": 107,
                         "errorMessage": "Cannot load property isThisBtn from (component in C:/Meta/Quick/music_player_demo/build/Desktop_Qt_6_8_0_MSVC2022_64bit-MinSizeRel/LeftBar.qml)::parent with type QQuickItem.",
                         "functionName": "color",
                         "line": 159
@@ -438,7 +438,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 25,
-                        "durationMicroseconds": 69,
+                        "durationMicroseconds": 82,
                         "errorMessage": "Cannot load property radius from (component in C:/Meta/Quick/music_player_demo/build/Desktop_Qt_6_8_0_MSVC2022_64bit-MinSizeRel/LeftBar.qml)::parent with type QQuickItem.",
                         "functionName": "radius",
                         "line": 161
@@ -446,7 +446,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 38,
-                        "durationMicroseconds": 92,
+                        "durationMicroseconds": 97,
                         "errorMessage": "",
                         "functionName": "type",
                         "line": 165
@@ -462,7 +462,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 25,
-                        "durationMicroseconds": 203,
+                        "durationMicroseconds": 217,
                         "errorMessage": "",
                         "functionName": "height",
                         "line": 172
@@ -470,7 +470,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 41,
-                        "durationMicroseconds": 133,
+                        "durationMicroseconds": 230,
                         "errorMessage": "",
                         "functionName": "verticalCenter",
                         "line": 173
@@ -478,7 +478,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 31,
-                        "durationMicroseconds": 125,
+                        "durationMicroseconds": 152,
                         "errorMessage": "",
                         "functionName": "left",
                         "line": 174
@@ -486,7 +486,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 37,
-                        "durationMicroseconds": 81,
+                        "durationMicroseconds": 96,
                         "errorMessage": "Cannot load property radius from (component in C:/Meta/Quick/music_player_demo/build/Desktop_Qt_6_8_0_MSVC2022_64bit-MinSizeRel/LeftBar.qml)::parent with type QQuickItem.",
                         "functionName": "leftMargin",
                         "line": 175
@@ -494,7 +494,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 29,
-                        "durationMicroseconds": 71,
+                        "durationMicroseconds": 72,
                         "errorMessage": "",
                         "functionName": "height",
                         "line": 180
@@ -502,7 +502,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 33,
-                        "durationMicroseconds": 262,
+                        "durationMicroseconds": 302,
                         "errorMessage": "",
                         "functionName": "sourceSize",
                         "line": 182
@@ -510,7 +510,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 29,
-                        "durationMicroseconds": 47,
+                        "durationMicroseconds": 48,
                         "errorMessage": "Cannot access value for name leftBar",
                         "functionName": "source",
                         "line": 183
@@ -518,7 +518,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 45,
-                        "durationMicroseconds": 135,
+                        "durationMicroseconds": 137,
                         "errorMessage": "",
                         "functionName": "verticalCenter",
                         "line": 181
@@ -526,7 +526,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 28,
-                        "durationMicroseconds": 185,
+                        "durationMicroseconds": 113,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 187
@@ -534,7 +534,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 29,
-                        "durationMicroseconds": 66,
+                        "durationMicroseconds": 65,
                         "errorMessage": "",
                         "functionName": "height",
                         "line": 188
@@ -542,7 +542,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 28,
-                        "durationMicroseconds": 93,
+                        "durationMicroseconds": 109,
                         "errorMessage": "",
                         "functionName": "elide",
                         "line": 191
@@ -550,7 +550,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 27,
-                        "durationMicroseconds": 46,
+                        "durationMicroseconds": 45,
                         "errorMessage": "Cannot access value for name leftBar",
                         "functionName": "text",
                         "line": 193
@@ -558,7 +558,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 37,
-                        "durationMicroseconds": 34,
+                        "durationMicroseconds": 33,
                         "errorMessage": "Cannot access value for name leftBar",
                         "functionName": "pointSize",
                         "line": 189
@@ -566,7 +566,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 32,
-                        "durationMicroseconds": 168,
+                        "durationMicroseconds": 183,
                         "errorMessage": "",
                         "functionName": "bold",
                         "line": 190
@@ -582,7 +582,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 30,
-                        "durationMicroseconds": 111,
+                        "durationMicroseconds": 192,
                         "errorMessage": "",
                         "functionName": "cursorShape",
                         "line": 200
@@ -590,7 +590,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 28,
-                        "durationMicroseconds": 58,
+                        "durationMicroseconds": 55,
                         "errorMessage": "Cannot access value for name leftBar",
                         "functionName": "onClicked",
                         "line": 202
@@ -598,7 +598,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 28,
-                        "durationMicroseconds": 59,
+                        "durationMicroseconds": 73,
                         "errorMessage": "",
                         "functionName": "onClicked",
                         "line": 202
@@ -606,7 +606,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 28,
-                        "durationMicroseconds": 26,
+                        "durationMicroseconds": 27,
                         "errorMessage": "Type (component in C:/Meta/Quick/music_player_demo/build/Desktop_Qt_6_8_0_MSVC2022_64bit-MinSizeRel/LeftBar.qml)::parent with type QQuickItem does not have a property isHoverd for writing",
                         "functionName": "onEntered",
                         "line": 212
@@ -622,7 +622,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 31,
-                        "durationMicroseconds": 636,
+                        "durationMicroseconds": 71,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 199
@@ -630,7 +630,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 38,
-                        "durationMicroseconds": 49,
+                        "durationMicroseconds": 42,
                         "errorMessage": "Cannot access value for name leftBar",
                         "functionName": "isThisBtn",
                         "line": 233
@@ -638,7 +638,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 20,
-                        "durationMicroseconds": 29,
+                        "durationMicroseconds": 28,
                         "errorMessage": "Cannot access value for name leftBarFlickable",
                         "functionName": "width",
                         "line": 234
@@ -646,7 +646,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 21,
-                        "durationMicroseconds": 25,
+                        "durationMicroseconds": 24,
                         "errorMessage": "Cannot access value for name leftBar",
                         "functionName": "height",
                         "line": 235
@@ -654,7 +654,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 20,
-                        "durationMicroseconds": 290,
+                        "durationMicroseconds": 353,
                         "errorMessage": "",
                         "functionName": "color",
                         "line": 237
@@ -662,7 +662,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 30,
-                        "durationMicroseconds": 352,
+                        "durationMicroseconds": 507,
                         "errorMessage": "",
                         "functionName": "onParentChanged",
                         "line": 303
@@ -670,7 +670,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 24,
-                        "durationMicroseconds": 391,
+                        "durationMicroseconds": 101,
                         "errorMessage": "Cannot load property isThisBtn from (component in C:/Meta/Quick/music_player_demo/build/Desktop_Qt_6_8_0_MSVC2022_64bit-MinSizeRel/LeftBar.qml)::parent with type QQuickItem.",
                         "functionName": "width",
                         "line": 240
@@ -678,7 +678,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 25,
-                        "durationMicroseconds": 113,
+                        "durationMicroseconds": 148,
                         "errorMessage": "",
                         "functionName": "height",
                         "line": 241
@@ -686,7 +686,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 24,
-                        "durationMicroseconds": 96,
+                        "durationMicroseconds": 94,
                         "errorMessage": "Cannot load property isThisBtn from (component in C:/Meta/Quick/music_player_demo/build/Desktop_Qt_6_8_0_MSVC2022_64bit-MinSizeRel/LeftBar.qml)::parent with type QQuickItem.",
                         "functionName": "color",
                         "line": 242
@@ -694,7 +694,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 25,
-                        "durationMicroseconds": 72,
+                        "durationMicroseconds": 67,
                         "errorMessage": "Cannot load property radius from (component in C:/Meta/Quick/music_player_demo/build/Desktop_Qt_6_8_0_MSVC2022_64bit-MinSizeRel/LeftBar.qml)::parent with type QQuickItem.",
                         "functionName": "radius",
                         "line": 244
@@ -702,7 +702,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 38,
-                        "durationMicroseconds": 129,
+                        "durationMicroseconds": 93,
                         "errorMessage": "",
                         "functionName": "type",
                         "line": 248
@@ -710,7 +710,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 24,
-                        "durationMicroseconds": 106,
+                        "durationMicroseconds": 101,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 254
@@ -718,7 +718,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 25,
-                        "durationMicroseconds": 158,
+                        "durationMicroseconds": 160,
                         "errorMessage": "",
                         "functionName": "height",
                         "line": 255
@@ -726,7 +726,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 41,
-                        "durationMicroseconds": 242,
+                        "durationMicroseconds": 142,
                         "errorMessage": "",
                         "functionName": "verticalCenter",
                         "line": 256
@@ -734,7 +734,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 31,
-                        "durationMicroseconds": 125,
+                        "durationMicroseconds": 126,
                         "errorMessage": "",
                         "functionName": "left",
                         "line": 257
@@ -742,7 +742,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 37,
-                        "durationMicroseconds": 84,
+                        "durationMicroseconds": 89,
                         "errorMessage": "Cannot load property radius from (component in C:/Meta/Quick/music_player_demo/build/Desktop_Qt_6_8_0_MSVC2022_64bit-MinSizeRel/LeftBar.qml)::parent with type QQuickItem.",
                         "functionName": "leftMargin",
                         "line": 258
@@ -750,7 +750,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 29,
-                        "durationMicroseconds": 70,
+                        "durationMicroseconds": 73,
                         "errorMessage": "",
                         "functionName": "height",
                         "line": 263
@@ -758,7 +758,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 33,
-                        "durationMicroseconds": 326,
+                        "durationMicroseconds": 268,
                         "errorMessage": "",
                         "functionName": "sourceSize",
                         "line": 265
@@ -766,7 +766,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 29,
-                        "durationMicroseconds": 51,
+                        "durationMicroseconds": 45,
                         "errorMessage": "Cannot access value for name leftBar",
                         "functionName": "source",
                         "line": 266
@@ -774,7 +774,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 45,
-                        "durationMicroseconds": 559,
+                        "durationMicroseconds": 133,
                         "errorMessage": "",
                         "functionName": "verticalCenter",
                         "line": 264
@@ -782,7 +782,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 28,
-                        "durationMicroseconds": 131,
+                        "durationMicroseconds": 195,
                         "errorMessage": "Cannot load property spacing from (component in C:/Meta/Quick/music_player_demo/build/Desktop_Qt_6_8_0_MSVC2022_64bit-MinSizeRel/LeftBar.qml)::parent with type QQuickItem.",
                         "functionName": "width",
                         "line": 270
@@ -790,7 +790,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 29,
-                        "durationMicroseconds": 69,
+                        "durationMicroseconds": 67,
                         "errorMessage": "",
                         "functionName": "height",
                         "line": 271
@@ -798,7 +798,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 28,
-                        "durationMicroseconds": 94,
+                        "durationMicroseconds": 99,
                         "errorMessage": "",
                         "functionName": "elide",
                         "line": 274
@@ -806,7 +806,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 27,
-                        "durationMicroseconds": 45,
+                        "durationMicroseconds": 41,
                         "errorMessage": "Cannot access value for name leftBar",
                         "functionName": "text",
                         "line": 276
@@ -814,7 +814,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 37,
-                        "durationMicroseconds": 60,
+                        "durationMicroseconds": 31,
                         "errorMessage": "Cannot access value for name leftBar",
                         "functionName": "pointSize",
                         "line": 272
@@ -822,7 +822,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 32,
-                        "durationMicroseconds": 171,
+                        "durationMicroseconds": 163,
                         "errorMessage": "",
                         "functionName": "bold",
                         "line": 273
@@ -830,7 +830,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 45,
-                        "durationMicroseconds": 135,
+                        "durationMicroseconds": 130,
                         "errorMessage": "",
                         "functionName": "verticalCenter",
                         "line": 275
@@ -838,7 +838,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 30,
-                        "durationMicroseconds": 109,
+                        "durationMicroseconds": 110,
                         "errorMessage": "",
                         "functionName": "cursorShape",
                         "line": 283
@@ -846,7 +846,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 28,
-                        "durationMicroseconds": 49,
+                        "durationMicroseconds": 44,
                         "errorMessage": "Cannot access value for name leftBar",
                         "functionName": "onClicked",
                         "line": 285
@@ -854,7 +854,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 28,
-                        "durationMicroseconds": 56,
+                        "durationMicroseconds": 55,
                         "errorMessage": "",
                         "functionName": "onClicked",
                         "line": 285
@@ -862,7 +862,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 28,
-                        "durationMicroseconds": 26,
+                        "durationMicroseconds": 24,
                         "errorMessage": "Type (component in C:/Meta/Quick/music_player_demo/build/Desktop_Qt_6_8_0_MSVC2022_64bit-MinSizeRel/LeftBar.qml)::parent with type QQuickItem does not have a property isHoverd for writing",
                         "functionName": "onEntered",
                         "line": 295
@@ -870,7 +870,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 27,
-                        "durationMicroseconds": 47,
+                        "durationMicroseconds": 19,
                         "errorMessage": "Type (component in C:/Meta/Quick/music_player_demo/build/Desktop_Qt_6_8_0_MSVC2022_64bit-MinSizeRel/LeftBar.qml)::parent with type QQuickItem does not have a property isHoverd for writing",
                         "functionName": "onExited",
                         "line": 298
@@ -878,7 +878,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 31,
-                        "durationMicroseconds": 77,
+                        "durationMicroseconds": 85,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 282
@@ -886,7 +886,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 38,
-                        "durationMicroseconds": 51,
+                        "durationMicroseconds": 43,
                         "errorMessage": "Cannot access value for name leftBar",
                         "functionName": "isThisBtn",
                         "line": 316
@@ -894,7 +894,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 20,
-                        "durationMicroseconds": 28,
+                        "durationMicroseconds": 32,
                         "errorMessage": "Cannot access value for name leftBarFlickable",
                         "functionName": "width",
                         "line": 317
@@ -910,7 +910,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 20,
-                        "durationMicroseconds": 273,
+                        "durationMicroseconds": 269,
                         "errorMessage": "",
                         "functionName": "color",
                         "line": 320
@@ -918,7 +918,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 30,
-                        "durationMicroseconds": 487,
+                        "durationMicroseconds": 362,
                         "errorMessage": "",
                         "functionName": "onParentChanged",
                         "line": 386
@@ -926,7 +926,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 24,
-                        "durationMicroseconds": 107,
+                        "durationMicroseconds": 96,
                         "errorMessage": "Cannot load property isThisBtn from (component in C:/Meta/Quick/music_player_demo/build/Desktop_Qt_6_8_0_MSVC2022_64bit-MinSizeRel/LeftBar.qml)::parent with type QQuickItem.",
                         "functionName": "width",
                         "line": 323
@@ -934,7 +934,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 25,
-                        "durationMicroseconds": 109,
+                        "durationMicroseconds": 117,
                         "errorMessage": "",
                         "functionName": "height",
                         "line": 324
@@ -942,7 +942,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 24,
-                        "durationMicroseconds": 92,
+                        "durationMicroseconds": 123,
                         "errorMessage": "Cannot load property isThisBtn from (component in C:/Meta/Quick/music_player_demo/build/Desktop_Qt_6_8_0_MSVC2022_64bit-MinSizeRel/LeftBar.qml)::parent with type QQuickItem.",
                         "functionName": "color",
                         "line": 325
@@ -950,7 +950,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 25,
-                        "durationMicroseconds": 67,
+                        "durationMicroseconds": 72,
                         "errorMessage": "Cannot load property radius from (component in C:/Meta/Quick/music_player_demo/build/Desktop_Qt_6_8_0_MSVC2022_64bit-MinSizeRel/LeftBar.qml)::parent with type QQuickItem.",
                         "functionName": "radius",
                         "line": 327
@@ -958,7 +958,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 38,
-                        "durationMicroseconds": 96,
+                        "durationMicroseconds": 99,
                         "errorMessage": "",
                         "functionName": "type",
                         "line": 331
@@ -966,7 +966,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 24,
-                        "durationMicroseconds": 128,
+                        "durationMicroseconds": 107,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 337
@@ -974,7 +974,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 25,
-                        "durationMicroseconds": 163,
+                        "durationMicroseconds": 161,
                         "errorMessage": "",
                         "functionName": "height",
                         "line": 338
@@ -982,7 +982,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 26,
-                        "durationMicroseconds": 84,
+                        "durationMicroseconds": 82,
                         "errorMessage": "Cannot load property radius from (component in C:/Meta/Quick/music_player_demo/build/Desktop_Qt_6_8_0_MSVC2022_64bit-MinSizeRel/LeftBar.qml)::parent with type QQuickItem.",
                         "functionName": "padding",
                         "line": 340
@@ -990,7 +990,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 41,
-                        "durationMicroseconds": 142,
+                        "durationMicroseconds": 134,
                         "errorMessage": "",
                         "functionName": "verticalCenter",
                         "line": 339
@@ -998,7 +998,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 29,
-                        "durationMicroseconds": 72,
+                        "durationMicroseconds": 675,
                         "errorMessage": "",
                         "functionName": "height",
                         "line": 345
@@ -1006,7 +1006,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 33,
-                        "durationMicroseconds": 354,
+                        "durationMicroseconds": 326,
                         "errorMessage": "",
                         "functionName": "sourceSize",
                         "line": 347
@@ -1014,7 +1014,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 29,
-                        "durationMicroseconds": 50,
+                        "durationMicroseconds": 49,
                         "errorMessage": "Cannot access value for name leftBar",
                         "functionName": "source",
                         "line": 348
@@ -1022,7 +1022,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 45,
-                        "durationMicroseconds": 140,
+                        "durationMicroseconds": 152,
                         "errorMessage": "",
                         "functionName": "verticalCenter",
                         "line": 346
@@ -1030,7 +1030,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 28,
-                        "durationMicroseconds": 129,
+                        "durationMicroseconds": 128,
                         "errorMessage": "Cannot load property spacing from (component in C:/Meta/Quick/music_player_demo/build/Desktop_Qt_6_8_0_MSVC2022_64bit-MinSizeRel/LeftBar.qml)::parent with type QQuickItem.",
                         "functionName": "width",
                         "line": 352
@@ -1038,7 +1038,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 29,
-                        "durationMicroseconds": 92,
+                        "durationMicroseconds": 84,
                         "errorMessage": "",
                         "functionName": "height",
                         "line": 353
@@ -1046,7 +1046,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 28,
-                        "durationMicroseconds": 168,
+                        "durationMicroseconds": 88,
                         "errorMessage": "",
                         "functionName": "elide",
                         "line": 356
@@ -1054,7 +1054,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 27,
-                        "durationMicroseconds": 44,
+                        "durationMicroseconds": 45,
                         "errorMessage": "Cannot access value for name leftBar",
                         "functionName": "text",
                         "line": 358
@@ -1062,7 +1062,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 37,
-                        "durationMicroseconds": 33,
+                        "durationMicroseconds": 43,
                         "errorMessage": "Cannot access value for name leftBar",
                         "functionName": "pointSize",
                         "line": 354
@@ -1070,7 +1070,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 32,
-                        "durationMicroseconds": 180,
+                        "durationMicroseconds": 192,
                         "errorMessage": "",
                         "functionName": "bold",
                         "line": 355
@@ -1078,7 +1078,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 45,
-                        "durationMicroseconds": 142,
+                        "durationMicroseconds": 189,
                         "errorMessage": "",
                         "functionName": "verticalCenter",
                         "line": 357
@@ -1086,7 +1086,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 30,
-                        "durationMicroseconds": 145,
+                        "durationMicroseconds": 130,
                         "errorMessage": "",
                         "functionName": "cursorShape",
                         "line": 365
@@ -1094,7 +1094,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 28,
-                        "durationMicroseconds": 66,
+                        "durationMicroseconds": 56,
                         "errorMessage": "Cannot access value for name leftBar",
                         "functionName": "onClicked",
                         "line": 367
@@ -1102,7 +1102,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 28,
-                        "durationMicroseconds": 56,
+                        "durationMicroseconds": 70,
                         "errorMessage": "",
                         "functionName": "onClicked",
                         "line": 367
@@ -1110,7 +1110,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 28,
-                        "durationMicroseconds": 26,
+                        "durationMicroseconds": 25,
                         "errorMessage": "Type (component in C:/Meta/Quick/music_player_demo/build/Desktop_Qt_6_8_0_MSVC2022_64bit-MinSizeRel/LeftBar.qml)::parent with type QQuickItem does not have a property isHoverd for writing",
                         "functionName": "onEntered",
                         "line": 378
@@ -1118,7 +1118,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 27,
-                        "durationMicroseconds": 20,
+                        "durationMicroseconds": 27,
                         "errorMessage": "Type (component in C:/Meta/Quick/music_player_demo/build/Desktop_Qt_6_8_0_MSVC2022_64bit-MinSizeRel/LeftBar.qml)::parent with type QQuickItem does not have a property isHoverd for writing",
                         "functionName": "onExited",
                         "line": 381
@@ -1126,7 +1126,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 31,
-                        "durationMicroseconds": 99,
+                        "durationMicroseconds": 109,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 364

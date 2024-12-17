@@ -13,6 +13,8 @@ class MyUtility : public QObject
 public:
     explicit MyUtility(QObject *parent = nullptr);
     Q_INVOKABLE QStringList showFiles(QString folder);
+    Q_INVOKABLE QString getInit();
+    Q_INVOKABLE void init(QString path);
 
 signals:
 };

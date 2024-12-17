@@ -13,7 +13,6 @@
     <file alias="qcComponent/QCVolumeBtn.qml">C:/Meta/Quick/music_player_demo/qcComponent/QCVolumeBtn.qml</file>
     <file alias="pageQml/PageFindMusic.qml">C:/Meta/Quick/music_player_demo/pageQml/PageFindMusic.qml</file>
     <file alias="qcComponent/QCScrollBar.qml">C:/Meta/Quick/music_player_demo/qcComponent/QCScrollBar.qml</file>
-    <file alias="QCMusicPlayer.qml">C:/Meta/Quick/music_player_demo/QCMusicPlayer.qml</file>
     <file alias="pageQml/PageLocalFolderDetail.qml">C:/Meta/Quick/music_player_demo/pageQml/PageLocalFolderDetail.qml</file>
     <file alias="pageQml/Tools.qml">C:/Meta/Quick/music_player_demo/pageQml/Tools.qml</file>
     <file alias="MetaManager.qml">C:/Meta/Quick/music_player_demo/MetaManager.qml</file>

@@ -408,7 +408,7 @@ Rectangle {
                 hovredColor: "#1FFF5966"
                 iconColor: "#FF5966"
                 onClicked: function (mouse) {
-                    m_music_Player.preMusicPlay()
+                    metaHandle.preMusicPlay()
                 }
             }
             QCToolTipButton {
@@ -452,7 +452,7 @@ Rectangle {
                 transformOrigin: Item.Center
                 rotation: 180
                 onClicked: function (mouse) {
-                    m_music_Player.nextMusicPlay()
+                    metaHandle.nextMusicPlay()
                 }
             }
             QCToolTipButton {
@@ -543,28 +543,28 @@ Rectangle {
                 btnIconColor: "#FFFF5966"
             }
 
-            // QCToolTipButton {
-            //     width: 35
-            //     height: width
-            //     propagateComposedEvents: true
-            //     cursorShape: Qt.PointingHandCursor
-            //     iconSource: "qrc:/Images/playList.svg"
-            //     hovredColor: "#1FFF5966"
-            //     iconColor: "#FF5966"
-            //     onClicked: function (mouse) {
-            //         mouse.accepted = false
-            //         if(p_qcThisPlayListLable.visible) {
-            //             isHighlight = false
-            //             p_qcThisPlayListLable.close()
-            //         } else {
-            //             isHighlight = true
-            //             p_qcThisPlayListLable.startX = bottomBar.width
-            //             p_qcThisPlayListLable.startY = bottomBar.y - p_qcThisPlayListLable.height
-            //             p_qcThisPlayListLable.open()
+            QCToolTipButton {
+                width: 35
+                height: width
+                propagateComposedEvents: true
+                cursorShape: Qt.PointingHandCursor
+                iconSource: "qrc:/Images/playList.svg"
+                hovredColor: "#1FFF5966"
+                iconColor: "#FF5966"
+                onClicked: function (mouse) {
+                    mouse.accepted = false
+                    if(p_qcThisPlayListLable.visible) {
+                        isHighlight = false
+                        p_qcThisPlayListLable.close()
+                    } else {
+                        isHighlight = true
+                        p_qcThisPlayListLable.startX = bottomBar.width
+                        p_qcThisPlayListLable.startY = bottomBar.y - p_qcThisPlayListLable.height
+                        p_qcThisPlayListLable.open()
 
-            //         }
-            //     }
-            // }
+                    }
+                }
+            }
             Component.onCompleted: {
                 var w = 0
                 for(var i = 0; i < children.length;i++) {
@@ -572,7 +572,7 @@ Rectangle {
                         w += children[i].contentWidth
                     } else w += children[i].width
                 }
-                width = w + children.length * spacing - spacing + 10
+                width = w + children.length * spacing - spacing
             }
         }
 

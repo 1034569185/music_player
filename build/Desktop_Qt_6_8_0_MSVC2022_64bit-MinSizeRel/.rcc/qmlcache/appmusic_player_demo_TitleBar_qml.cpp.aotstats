@@ -6,7 +6,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 12,
-                        "durationMicroseconds": 256,
+                        "durationMicroseconds": 243,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 8
@@ -14,7 +14,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 33,
-                        "durationMicroseconds": 255,
+                        "durationMicroseconds": 303,
                         "errorMessage": "",
                         "functionName": "click_pos",
                         "line": 12
@@ -22,7 +22,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 28,
-                        "durationMicroseconds": 316,
+                        "durationMicroseconds": 400,
                         "errorMessage": "Cannot access value for name window",
                         "functionName": "onPositionChanged",
                         "line": 14
@@ -30,7 +30,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 28,
-                        "durationMicroseconds": 67,
+                        "durationMicroseconds": 93,
                         "errorMessage": "",
                         "functionName": "onPositionChanged",
                         "line": 14
@@ -46,7 +46,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 27,
-                        "durationMicroseconds": 43,
+                        "durationMicroseconds": 52,
                         "errorMessage": "",
                         "functionName": "onPressedChanged",
                         "line": 25
@@ -54,7 +54,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 26,
-                        "durationMicroseconds": 240,
+                        "durationMicroseconds": 5744,
                         "errorMessage": "Cannot access value for name window",
                         "functionName": "onDoubleClicked",
                         "line": 28
@@ -62,7 +62,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 23,
-                        "durationMicroseconds": 78,
+                        "durationMicroseconds": 95,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 13
@@ -70,7 +70,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 20,
-                        "durationMicroseconds": 174,
+                        "durationMicroseconds": 181,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 37
@@ -78,7 +78,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 21,
-                        "durationMicroseconds": 159,
+                        "durationMicroseconds": 247,
                         "errorMessage": "",
                         "functionName": "height",
                         "line": 38
@@ -86,7 +86,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 31,
-                        "durationMicroseconds": 75,
+                        "durationMicroseconds": 81,
                         "errorMessage": "",
                         "functionName": "centerIn",
                         "line": 39
@@ -94,7 +94,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 25,
-                        "durationMicroseconds": 104,
+                        "durationMicroseconds": 119,
                         "errorMessage": "",
                         "functionName": "height",
                         "line": 42
@@ -102,7 +102,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 29,
-                        "durationMicroseconds": 66,
+                        "durationMicroseconds": 101,
                         "errorMessage": "",
                         "functionName": "height",
                         "line": 46
@@ -110,7 +110,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 45,
-                        "durationMicroseconds": 131,
+                        "durationMicroseconds": 185,
                         "errorMessage": "",
                         "functionName": "verticalCenter",
                         "line": 47
@@ -118,7 +118,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 33,
-                        "durationMicroseconds": 91,
+                        "durationMicroseconds": 99,
                         "errorMessage": "",
                         "functionName": "source",
                         "line": 51
@@ -126,7 +126,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 39,
-                        "durationMicroseconds": 66,
+                        "durationMicroseconds": 92,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 50
@@ -134,7 +134,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 45,
-                        "durationMicroseconds": 129,
+                        "durationMicroseconds": 146,
                         "errorMessage": "",
                         "functionName": "verticalCenter",
                         "line": 58
@@ -142,7 +142,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 40,
-                        "durationMicroseconds": 243,
+                        "durationMicroseconds": 395,
                         "errorMessage": "Cannot load property contentWidth from conversion to QVariant.",
                         "functionName": "onCompleted",
                         "line": 62
@@ -150,7 +150,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 24,
-                        "durationMicroseconds": 354,
+                        "durationMicroseconds": 242,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 68
@@ -158,7 +158,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 29,
-                        "durationMicroseconds": 73,
+                        "durationMicroseconds": 72,
                         "errorMessage": "",
                         "functionName": "height",
                         "line": 74
@@ -166,7 +166,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 28,
-                        "durationMicroseconds": 442,
+                        "durationMicroseconds": 468,
                         "errorMessage": "",
                         "functionName": "color",
                         "line": 76
@@ -174,7 +174,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 32,
-                        "durationMicroseconds": 1333,
+                        "durationMicroseconds": 222,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 78
@@ -182,7 +182,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 43,
-                        "durationMicroseconds": 80,
+                        "durationMicroseconds": 70,
                         "errorMessage": "",
                         "functionName": "centerIn",
                         "line": 79
@@ -190,7 +190,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 36,
-                        "durationMicroseconds": 340,
+                        "durationMicroseconds": 274,
                         "errorMessage": "Cannot access value for name window",
                         "functionName": "onClicked",
                         "line": 89
@@ -198,7 +198,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 36,
-                        "durationMicroseconds": 31,
+                        "durationMicroseconds": 28,
                         "errorMessage": "Type (component in C:/Meta/Quick/music_player_demo/build/Desktop_Qt_6_8_0_MSVC2022_64bit-MinSizeRel/TitleBar.qml)::parent with type QQuickItem does not have a property isHovered for writing",
                         "functionName": "onEntered",
                         "line": 92
@@ -214,7 +214,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 39,
-                        "durationMicroseconds": 113,
+                        "durationMicroseconds": 66,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 87
@@ -222,7 +222,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 29,
-                        "durationMicroseconds": 78,
+                        "durationMicroseconds": 62,
                         "errorMessage": "",
                         "functionName": "height",
                         "line": 105
@@ -230,7 +230,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 28,
-                        "durationMicroseconds": 392,
+                        "durationMicroseconds": 307,
                         "errorMessage": "",
                         "functionName": "color",
                         "line": 107
@@ -238,7 +238,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 32,
-                        "durationMicroseconds": 171,
+                        "durationMicroseconds": 162,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 109
@@ -246,7 +246,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 33,
-                        "durationMicroseconds": 68,
+                        "durationMicroseconds": 64,
                         "errorMessage": "",
                         "functionName": "height",
                         "line": 110
@@ -254,7 +254,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 43,
-                        "durationMicroseconds": 68,
+                        "durationMicroseconds": 60,
                         "errorMessage": "",
                         "functionName": "centerIn",
                         "line": 111
@@ -262,7 +262,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 36,
-                        "durationMicroseconds": 286,
+                        "durationMicroseconds": 276,
                         "errorMessage": "Cannot access value for name window",
                         "functionName": "onClicked",
                         "line": 121
@@ -270,7 +270,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 36,
-                        "durationMicroseconds": 26,
+                        "durationMicroseconds": 25,
                         "errorMessage": "Type (component in C:/Meta/Quick/music_player_demo/build/Desktop_Qt_6_8_0_MSVC2022_64bit-MinSizeRel/TitleBar.qml)::parent with type QQuickItem does not have a property isHovered for writing",
                         "functionName": "onEntered",
                         "line": 129
@@ -278,7 +278,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 35,
-                        "durationMicroseconds": 19,
+                        "durationMicroseconds": 20,
                         "errorMessage": "Type (component in C:/Meta/Quick/music_player_demo/build/Desktop_Qt_6_8_0_MSVC2022_64bit-MinSizeRel/TitleBar.qml)::parent with type QQuickItem does not have a property isHovered for writing",
                         "functionName": "onExited",
                         "line": 132
@@ -286,7 +286,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 39,
-                        "durationMicroseconds": 74,
+                        "durationMicroseconds": 70,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 119
@@ -294,7 +294,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 29,
-                        "durationMicroseconds": 68,
+                        "durationMicroseconds": 61,
                         "errorMessage": "",
                         "functionName": "height",
                         "line": 142
@@ -302,7 +302,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 28,
-                        "durationMicroseconds": 312,
+                        "durationMicroseconds": 302,
                         "errorMessage": "",
                         "functionName": "color",
                         "line": 144
@@ -310,7 +310,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 32,
-                        "durationMicroseconds": 495,
+                        "durationMicroseconds": 164,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 146
@@ -318,7 +318,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 43,
-                        "durationMicroseconds": 121,
+                        "durationMicroseconds": 64,
                         "errorMessage": "",
                         "functionName": "centerIn",
                         "line": 150
@@ -326,7 +326,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 32,
-                        "durationMicroseconds": 200,
+                        "durationMicroseconds": 153,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 155
@@ -334,7 +334,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 43,
-                        "durationMicroseconds": 68,
+                        "durationMicroseconds": 63,
                         "errorMessage": "",
                         "functionName": "centerIn",
                         "line": 159
@@ -342,7 +342,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 36,
-                        "durationMicroseconds": 135,
+                        "durationMicroseconds": 129,
                         "errorMessage": "",
                         "functionName": "onClicked",
                         "line": 167
@@ -350,7 +350,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 36,
-                        "durationMicroseconds": 25,
+                        "durationMicroseconds": 28,
                         "errorMessage": "Type (component in C:/Meta/Quick/music_player_demo/build/Desktop_Qt_6_8_0_MSVC2022_64bit-MinSizeRel/TitleBar.qml)::parent with type QQuickItem does not have a property isHovered for writing",
                         "functionName": "onEntered",
                         "line": 170
@@ -358,7 +358,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 35,
-                        "durationMicroseconds": 19,
+                        "durationMicroseconds": 18,
                         "errorMessage": "Type (component in C:/Meta/Quick/music_player_demo/build/Desktop_Qt_6_8_0_MSVC2022_64bit-MinSizeRel/TitleBar.qml)::parent with type QQuickItem does not have a property isHovered for writing",
                         "functionName": "onExited",
                         "line": 173
@@ -366,7 +366,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 39,
-                        "durationMicroseconds": 68,
+                        "durationMicroseconds": 65,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 165

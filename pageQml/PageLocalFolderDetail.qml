@@ -11,9 +11,24 @@ Item {
 
     FolderDialog {
         id: fd
+        property var pre
+
+        Component.onCompleted: {
+            var str = ul.getInit()
+            if( str !== "" )
+            {
+                fd.folder = str
+            }
+        }
 
         onFolderChanged: {
             var filelist = ul.showFiles(folder)
+            ul.init(fd.folder)
+            pre = fd.folder.toString().substring(8)
+            metaHandle.arr = filelist
+            metaHandle.prefix = pre
+            metaHandle.end = filelist.length
+            myListModel.clear()
             for( let k of filelist ){
                 print(k)
                 myListModel.append( { name: k, author: "未知", src: "local", duration: "00:00" } )
@@ -170,7 +185,7 @@ Item {
         }
 
         Rectangle {
-            width: parent.width
+            width: parent.width - 5
             height: parent.height - header.height - secondLine.height - trans.height
             border.width: 3
             border.color: "hotpink"
@@ -193,14 +208,20 @@ Item {
             }
 
 
-
             ListView {
+                id: lw
                 anchors.fill: parent
                 anchors.leftMargin: 15
                 anchors.topMargin: 10
                 anchors.rightMargin: 15
                 clip: true
                 snapMode: ListView.SnapOneItem
+
+                ScrollBar.vertical: ScrollBar {
+                    width: 10
+                    size: 0.02
+                    snapMode: ScrollBar.SnapAlways
+                }
 
                 model: myListModel
                 //     ListModel {
@@ -239,11 +260,11 @@ Item {
 
                             }
                             onDoubleClicked: {
-                                var pre = fd.folder.toString()
-                                var para = pre.substring(8).concat('/', model.name)
+                                var para = fd.pre.concat('/', model.name)
                                 print(para)
                                 m_music_Player.m_setSource(para)
                                 m_music_Player.m_play()
+                                metaHandle.cur = index
                             }
                         }
 
@@ -327,8 +348,8 @@ Item {
 
                 }
             }
-
         }
+            //
 
 
     }

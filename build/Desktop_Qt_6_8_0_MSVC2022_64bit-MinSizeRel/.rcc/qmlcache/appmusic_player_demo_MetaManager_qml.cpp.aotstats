@@ -5,19 +5,35 @@
                 "entries": [
                     {
                         "codegenSuccessfull": false,
+                        "column": 5,
+                        "durationMicroseconds": 424,
+                        "errorMessage": "Cannot access value for name m_music_Player",
+                        "functionName": "preMusicPlay",
+                        "line": 9
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 5,
+                        "durationMicroseconds": 321,
+                        "errorMessage": "Cannot access value for name m_music_Player",
+                        "functionName": "nextMusicPlay",
+                        "line": 15
+                    },
+                    {
+                        "codegenSuccessfull": false,
                         "column": 17,
-                        "durationMicroseconds": 152,
+                        "durationMicroseconds": 69,
                         "errorMessage": "Cannot access value for name m_music_Player",
                         "functionName": "target",
-                        "line": 5
+                        "line": 22
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 9,
-                        "durationMicroseconds": 79,
+                        "durationMicroseconds": 68,
                         "errorMessage": "Cannot access value for name m_music_Player",
-                        "functionName": "onMetaDataChanged",
-                        "line": 6
+                        "functionName": "onMediaStatusChanged",
+                        "line": 23
                     }
                 ],
                 "filepath": "C:/Meta/Quick/music_player_demo/build/Desktop_Qt_6_8_0_MSVC2022_64bit-MinSizeRel/MetaManager.qml"

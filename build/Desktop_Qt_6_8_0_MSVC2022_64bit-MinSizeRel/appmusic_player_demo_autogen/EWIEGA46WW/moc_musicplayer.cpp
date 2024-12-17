@@ -41,6 +41,8 @@ constexpr auto qt_meta_stringdata_CLASSMusicPlayerENDCLASS = QtMocHelpers::strin
     "isPausedChanged",
     "",
     "metaDataChanged",
+    "volumeChanged",
+    "lastVolumeChanged",
     "onInitializationDone",
     "m_play",
     "m_pause",
@@ -53,7 +55,9 @@ constexpr auto qt_meta_stringdata_CLASSMusicPlayerENDCLASS = QtMocHelpers::strin
     "name",
     "artist",
     "duration",
-    "coverImage"
+    "coverImage",
+    "volume",
+    "lastVolume"
 );
 #else  // !QT_MOC_HAS_STRINGDATA
 #error "qtmochelpers.h not found or too old."
@@ -66,31 +70,35 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSMusicPlayerENDCLASS[] = {
       12,       // revision
        0,       // classname
        1,   14, // classinfo
-       8,   16, // methods
-       5,   74, // properties
+      10,   16, // methods
+       7,   88, // properties
        0,    0, // enums/sets
        0,    0, // constructors
        0,       // flags
-       2,       // signalCount
+       4,       // signalCount
 
  // classinfo: key, value
        1,    2,
 
  // signals: name, argc, parameters, tag, flags, initial metatype offsets
-       3,    0,   64,    4, 0x06,    6 /* Public */,
-       5,    0,   65,    4, 0x06,    7 /* Public */,
+       3,    0,   76,    4, 0x06,    8 /* Public */,
+       5,    0,   77,    4, 0x06,    9 /* Public */,
+       6,    0,   78,    4, 0x06,   10 /* Public */,
+       7,    0,   79,    4, 0x06,   11 /* Public */,
 
  // slots: name, argc, parameters, tag, flags, initial metatype offsets
-       6,    0,   66,    4, 0x0a,    8 /* Public */,
+       8,    0,   80,    4, 0x0a,   12 /* Public */,
 
  // methods: name, argc, parameters, tag, flags, initial metatype offsets
-       7,    0,   67,    4, 0x02,    9 /* Public */,
-       8,    0,   68,    4, 0x02,   10 /* Public */,
-       9,    0,   69,    4, 0x02,   11 /* Public */,
-      10,    1,   70,    4, 0x02,   12 /* Public */,
-      12,    0,   73,    4, 0x02,   14 /* Public */,
+       9,    0,   81,    4, 0x02,   13 /* Public */,
+      10,    0,   82,    4, 0x02,   14 /* Public */,
+      11,    0,   83,    4, 0x02,   15 /* Public */,
+      12,    1,   84,    4, 0x02,   16 /* Public */,
+      14,    0,   87,    4, 0x02,   18 /* Public */,
 
  // signals: parameters
+    QMetaType::Void,
+    QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
 
@@ -101,15 +109,17 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSMusicPlayerENDCLASS[] = {
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
-    QMetaType::Void, QMetaType::QUrl,   11,
-    0x80000000 | 13,
+    QMetaType::Void, QMetaType::QUrl,   13,
+    0x80000000 | 15,
 
  // properties: name, type, flags, notifyId, revision
-      14, QMetaType::Bool, 0x00015903, uint(0), 0,
-      15, QMetaType::QString, 0x00015001, uint(1), 0,
-      16, QMetaType::QString, 0x00015001, uint(1), 0,
-      17, QMetaType::LongLong, 0x00015001, uint(1), 0,
+      16, QMetaType::Bool, 0x00015903, uint(0), 0,
+      17, QMetaType::QString, 0x00015001, uint(1), 0,
       18, QMetaType::QString, 0x00015001, uint(1), 0,
+      19, QMetaType::LongLong, 0x00015001, uint(1), 0,
+      20, QMetaType::QString, 0x00015001, uint(1), 0,
+      21, QMetaType::Float, 0x00015903, uint(2), 0,
+      22, QMetaType::Float, 0x00015903, uint(3), 0,
 
        0        // eod
 };
@@ -131,11 +141,19 @@ Q_CONSTINIT const QMetaObject MusicPlayer::staticMetaObject = { {
         qint64,
         // property 'coverImage'
         QString,
+        // property 'volume'
+        float,
+        // property 'lastVolume'
+        float,
         // Q_OBJECT / Q_GADGET
         MusicPlayer,
         // method 'isPausedChanged'
         void,
         // method 'metaDataChanged'
+        void,
+        // method 'volumeChanged'
+        void,
+        // method 'lastVolumeChanged'
         void,
         // method 'onInitializationDone'
         void,
@@ -162,12 +180,14 @@ void MusicPlayer::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id,
         switch (_id) {
         case 0: _t->isPausedChanged(); break;
         case 1: _t->metaDataChanged(); break;
-        case 2: _t->onInitializationDone(); break;
-        case 3: _t->m_play(); break;
-        case 4: _t->m_pause(); break;
-        case 5: _t->m_stop(); break;
-        case 6: _t->m_setSource((*reinterpret_cast< std::add_pointer_t<QUrl>>(_a[1]))); break;
-        case 7: { QMediaMetaData _r = _t->getMetaData();
+        case 2: _t->volumeChanged(); break;
+        case 3: _t->lastVolumeChanged(); break;
+        case 4: _t->onInitializationDone(); break;
+        case 5: _t->m_play(); break;
+        case 6: _t->m_pause(); break;
+        case 7: _t->m_stop(); break;
+        case 8: _t->m_setSource((*reinterpret_cast< std::add_pointer_t<QUrl>>(_a[1]))); break;
+        case 9: { QMediaMetaData _r = _t->getMetaData();
             if (_a[0]) *reinterpret_cast< QMediaMetaData*>(_a[0]) = std::move(_r); }  break;
         default: ;
         }
@@ -187,6 +207,20 @@ void MusicPlayer::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id,
                 return;
             }
         }
+        {
+            using _t = void (MusicPlayer::*)();
+            if (_t _q_method = &MusicPlayer::volumeChanged; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
+                *result = 2;
+                return;
+            }
+        }
+        {
+            using _t = void (MusicPlayer::*)();
+            if (_t _q_method = &MusicPlayer::lastVolumeChanged; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
+                *result = 3;
+                return;
+            }
+        }
     } else if (_c == QMetaObject::ReadProperty) {
         auto *_t = static_cast<MusicPlayer *>(_o);
         (void)_t;
@@ -197,6 +231,8 @@ void MusicPlayer::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id,
         case 2: *reinterpret_cast< QString*>(_v) = _t->artist(); break;
         case 3: *reinterpret_cast< qint64*>(_v) = _t->duration(); break;
         case 4: *reinterpret_cast< QString*>(_v) = _t->coverImage(); break;
+        case 5: *reinterpret_cast< float*>(_v) = _t->volume(); break;
+        case 6: *reinterpret_cast< float*>(_v) = _t->getLastVolume(); break;
         default: break;
         }
     } else if (_c == QMetaObject::WriteProperty) {
@@ -205,6 +241,8 @@ void MusicPlayer::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id,
         void *_v = _a[0];
         switch (_id) {
         case 0: _t->setIsPaused(*reinterpret_cast< bool*>(_v)); break;
+        case 5: _t->setVolume(*reinterpret_cast< float*>(_v)); break;
+        case 6: _t->setLastVolume(*reinterpret_cast< float*>(_v)); break;
         default: break;
         }
     } else if (_c == QMetaObject::ResetProperty) {
@@ -231,18 +269,18 @@ int MusicPlayer::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 8)
+        if (_id < 10)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 8;
+        _id -= 10;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 8)
+        if (_id < 10)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 8;
+        _id -= 10;
     }else if (_c == QMetaObject::ReadProperty || _c == QMetaObject::WriteProperty
             || _c == QMetaObject::ResetProperty || _c == QMetaObject::BindableProperty
             || _c == QMetaObject::RegisterPropertyMetaType) {
         qt_static_metacall(this, _c, _id, _a);
-        _id -= 5;
+        _id -= 7;
     }
     return _id;
 }
@@ -257,5 +295,17 @@ void MusicPlayer::isPausedChanged()
 void MusicPlayer::metaDataChanged()
 {
     QMetaObject::activate(this, &staticMetaObject, 1, nullptr);
+}
+
+// SIGNAL 2
+void MusicPlayer::volumeChanged()
+{
+    QMetaObject::activate(this, &staticMetaObject, 2, nullptr);
+}
+
+// SIGNAL 3
+void MusicPlayer::lastVolumeChanged()
+{
+    QMetaObject::activate(this, &staticMetaObject, 3, nullptr);
 }
 QT_WARNING_POP

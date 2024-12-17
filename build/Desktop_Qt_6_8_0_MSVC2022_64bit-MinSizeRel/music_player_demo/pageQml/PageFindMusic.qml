@@ -12,6 +12,10 @@ Item {
     property double fontSize: 12
     anchors.fill: parent
 
+    Component.onCompleted: {
+        print("============")
+    }
+
     Flickable {
         id: findMusicFlickable
 

@@ -40,7 +40,10 @@ constexpr auto qt_meta_stringdata_CLASSMyUtilityENDCLASS = QtMocHelpers::stringD
     "auto",
     "showFiles",
     "",
-    "folder"
+    "folder",
+    "getInit",
+    "init",
+    "path"
 );
 #else  // !QT_MOC_HAS_STRINGDATA
 #error "qtmochelpers.h not found or too old."
@@ -53,7 +56,7 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSMyUtilityENDCLASS[] = {
       12,       // revision
        0,       // classname
        1,   14, // classinfo
-       1,   16, // methods
+       3,   16, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -64,10 +67,14 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSMyUtilityENDCLASS[] = {
        1,    2,
 
  // methods: name, argc, parameters, tag, flags, initial metatype offsets
-       3,    1,   22,    4, 0x02,    1 /* Public */,
+       3,    1,   34,    4, 0x02,    1 /* Public */,
+       6,    0,   37,    4, 0x02,    3 /* Public */,
+       7,    1,   38,    4, 0x02,    4 /* Public */,
 
  // methods: parameters
     QMetaType::QStringList, QMetaType::QString,    5,
+    QMetaType::QString,
+    QMetaType::Void, QMetaType::QString,    8,
 
        0        // eod
 };
@@ -83,6 +90,11 @@ Q_CONSTINIT const QMetaObject MyUtility::staticMetaObject = { {
         MyUtility,
         // method 'showFiles'
         QStringList,
+        QString,
+        // method 'getInit'
+        QString,
+        // method 'init'
+        void,
         QString
     >,
     nullptr
@@ -96,6 +108,9 @@ void MyUtility::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, v
         switch (_id) {
         case 0: { QStringList _r = _t->showFiles((*reinterpret_cast< std::add_pointer_t<QString>>(_a[1])));
             if (_a[0]) *reinterpret_cast< QStringList*>(_a[0]) = std::move(_r); }  break;
+        case 1: { QString _r = _t->getInit();
+            if (_a[0]) *reinterpret_cast< QString*>(_a[0]) = std::move(_r); }  break;
+        case 2: _t->init((*reinterpret_cast< std::add_pointer_t<QString>>(_a[1]))); break;
         default: ;
         }
     }
@@ -120,13 +135,13 @@ int MyUtility::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 1)
+        if (_id < 3)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 1;
+        _id -= 3;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 1)
+        if (_id < 3)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 1;
+        _id -= 3;
     }
     return _id;
 }

@@ -6,7 +6,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 13,
-                        "durationMicroseconds": 178,
+                        "durationMicroseconds": 148,
                         "errorMessage": "",
                         "functionName": "height",
                         "line": 16
@@ -14,7 +14,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 18,
-                        "durationMicroseconds": 131,
+                        "durationMicroseconds": 126,
                         "errorMessage": "",
                         "functionName": "cursorShape",
                         "line": 18
@@ -22,7 +22,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 17,
-                        "durationMicroseconds": 251,
+                        "durationMicroseconds": 174,
                         "errorMessage": "",
                         "functionName": "onEntered",
                         "line": 19
@@ -30,7 +30,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 15,
-                        "durationMicroseconds": 155,
+                        "durationMicroseconds": 150,
                         "errorMessage": "",
                         "functionName": "onExited",
                         "line": 23
@@ -38,7 +38,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 16,
-                        "durationMicroseconds": 48,
+                        "durationMicroseconds": 41,
                         "errorMessage": "Cannot access value for name isHovred",
                         "functionName": "color",
                         "line": 30
@@ -46,7 +46,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 23,
-                        "durationMicroseconds": 87,
+                        "durationMicroseconds": 71,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 28
@@ -54,7 +54,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 16,
-                        "durationMicroseconds": 189,
+                        "durationMicroseconds": 251,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 34
@@ -62,7 +62,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 17,
-                        "durationMicroseconds": 69,
+                        "durationMicroseconds": 74,
                         "errorMessage": "",
                         "functionName": "height",
                         "line": 35
@@ -70,7 +70,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 17,
-                        "durationMicroseconds": 146,
+                        "durationMicroseconds": 105,
                         "errorMessage": "Cannot load property iconSource from (component in C:/Meta/Quick/music_player_demo/build/Desktop_Qt_6_8_0_MSVC2022_64bit-MinSizeRel/QCToolTipButton.qml)::parent with type QQuickItem.",
                         "functionName": "source",
                         "line": 37
@@ -78,7 +78,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 21,
-                        "durationMicroseconds": 326,
+                        "durationMicroseconds": 297,
                         "errorMessage": "",
                         "functionName": "sourceSize",
                         "line": 38
@@ -86,7 +86,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 16,
-                        "durationMicroseconds": 98,
+                        "durationMicroseconds": 93,
                         "errorMessage": "Cannot load property iconColor from (component in C:/Meta/Quick/music_player_demo/build/Desktop_Qt_6_8_0_MSVC2022_64bit-MinSizeRel/QCToolTipButton.qml)::parent with type QQuickItem.",
                         "functionName": "color",
                         "line": 39
@@ -94,7 +94,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 27,
-                        "durationMicroseconds": 73,
+                        "durationMicroseconds": 72,
                         "errorMessage": "",
                         "functionName": "centerIn",
                         "line": 36
@@ -102,7 +102,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 31,
-                        "durationMicroseconds": 96,
+                        "durationMicroseconds": 95,
                         "errorMessage": "",
                         "functionName": "text",
                         "line": 43
@@ -118,7 +118,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 16,
-                        "durationMicroseconds": 165,
+                        "durationMicroseconds": 163,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 49
@@ -126,7 +126,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 17,
-                        "durationMicroseconds": 156,
+                        "durationMicroseconds": 151,
                         "errorMessage": "",
                         "functionName": "height",
                         "line": 50
@@ -134,7 +134,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 28,
-                        "durationMicroseconds": 711,
+                        "durationMicroseconds": 692,
                         "errorMessage": "",
                         "functionName": "onIsHoverdChanged",
                         "line": 98
@@ -142,7 +142,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 27,
-                        "durationMicroseconds": 1268,
+                        "durationMicroseconds": 437,
                         "errorMessage": "",
                         "functionName": "onVisibleChanged",
                         "line": 108
@@ -150,7 +150,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 18,
-                        "durationMicroseconds": 150,
+                        "durationMicroseconds": 130,
                         "errorMessage": "",
                         "functionName": "top",
                         "line": 52
@@ -158,7 +158,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 31,
-                        "durationMicroseconds": 123,
+                        "durationMicroseconds": 120,
                         "errorMessage": "",
                         "functionName": "horizontalCenter",
                         "line": 53
@@ -166,7 +166,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 29,
-                        "durationMicroseconds": 366,
+                        "durationMicroseconds": 74,
                         "errorMessage": "",
                         "functionName": "target",
                         "line": 68
@@ -174,7 +174,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 29,
-                        "durationMicroseconds": 69,
+                        "durationMicroseconds": 67,
                         "errorMessage": "",
                         "functionName": "target",
                         "line": 61
@@ -182,7 +182,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 29,
-                        "durationMicroseconds": 70,
+                        "durationMicroseconds": 68,
                         "errorMessage": "",
                         "functionName": "target",
                         "line": 88
@@ -190,7 +190,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 32,
-                        "durationMicroseconds": 174,
+                        "durationMicroseconds": 178,
                         "errorMessage": "",
                         "functionName": "onStopped",
                         "line": 92
@@ -198,7 +198,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 34,
-                        "durationMicroseconds": 144,
+                        "durationMicroseconds": 86,
                         "errorMessage": "",
                         "functionName": "type",
                         "line": 91
@@ -206,7 +206,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 29,
-                        "durationMicroseconds": 162,
+                        "durationMicroseconds": 70,
                         "errorMessage": "",
                         "functionName": "target",
                         "line": 78
@@ -214,7 +214,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 34,
-                        "durationMicroseconds": 160,
+                        "durationMicroseconds": 1101,
                         "errorMessage": "",
                         "functionName": "type",
                         "line": 81
@@ -222,7 +222,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 19,
-                        "durationMicroseconds": 121,
+                        "durationMicroseconds": 102,
                         "errorMessage": "",
                         "functionName": "text",
                         "line": 119
@@ -230,7 +230,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 31,
-                        "durationMicroseconds": 91,
+                        "durationMicroseconds": 65,
                         "errorMessage": "",
                         "functionName": "centerIn",
                         "line": 118
@@ -238,7 +238,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 26,
-                        "durationMicroseconds": 676,
+                        "durationMicroseconds": 725,
                         "errorMessage": "",
                         "functionName": "onTriggered",
                         "line": 123
