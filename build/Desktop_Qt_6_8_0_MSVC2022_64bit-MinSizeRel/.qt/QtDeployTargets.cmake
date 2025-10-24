@@ -1,3 +1,0 @@
-set(__QT_DEPLOY_TARGET_appmusic_player_demo_FILE C:/Meta/Quick/music_player_demo/build/Desktop_Qt_6_8_0_MSVC2022_64bit-MinSizeRel/appmusic_player_demo.exe)
-set(__QT_DEPLOY_TARGET_appmusic_player_demo_TYPE EXECUTABLE)
-set(__QT_DEPLOY_TARGET_appmusic_player_demo_RUNTIME_DLLS C:/Meta/Qt/6.8.0/msvc2022_64/bin/Qt6Quick.dll;C:/Meta/Qt/6.8.0/msvc2022_64/bin/Qt6Multimedia.dll;C:/Meta/Qt/6.8.0/msvc2022_64/bin/Qt6QmlMeta.dll;C:/Meta/Qt/6.8.0/msvc2022_64/bin/Qt6QmlWorkerScript.dll;C:/Meta/Qt/6.8.0/msvc2022_64/bin/Qt6QmlModels.dll;C:/Meta/Qt/6.8.0/msvc2022_64/bin/Qt6Qml.dll;C:/Meta/Qt/6.8.0/msvc2022_64/bin/Qt6OpenGL.dll;C:/Meta/Qt/6.8.0/msvc2022_64/bin/Qt6Network.dll;C:/Meta/Qt/6.8.0/msvc2022_64/bin/Qt6Gui.dll;C:/Meta/Qt/6.8.0/msvc2022_64/bin/Qt6Core.dll)
