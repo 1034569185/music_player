@@ -5,16 +5,30 @@ Item {
     property var prefix
     property var cur
     property var end
+    property var mode
 
     function preMusicPlay() {
         cur = (cur - 1 + end) % end
-        m_music_Player.m_setSource(prefix.concat('/', arr[cur]))
+        if( mode == "offline"){
+            m_music_Player.m_setSource(prefix.concat('/', arr[cur]))
+        }
+        else{
+            let temp = JSON.stringify(arr[cur])
+            let mp = JSON.parse(temp)
+            m_music_Player.m_setSource(mp["url"])
+        }
         m_music_Player.m_play()
     }
 
     function nextMusicPlay() {
         cur = (cur + 1) % end
-        m_music_Player.m_setSource(prefix.concat('/', arr[cur]))
+        if( mode == "offline"){
+            m_music_Player.m_setSource(prefix.concat('/', arr[cur]))
+        }else{
+            let temp = JSON.stringify(arr[cur])
+            let mp = JSON.parse(temp)
+            m_music_Player.m_setSource(mp["url"])
+        }
         m_music_Player.m_play()
     }
 

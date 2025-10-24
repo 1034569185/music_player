@@ -15,6 +15,7 @@ Item {
 
         Component.onCompleted: {
             var str = ul.getInit()
+            metaHandle.mode = "offline"
             if( str !== "" )
             {
                 fd.folder = str
@@ -199,8 +200,6 @@ Item {
                 start: Qt.point(0, 0)
                 end: Qt.point(300, 300)
                 gradient: Gradient {
-                    // GradientStop { position: 0.0; color: "#3980c7" }
-                    // GradientStop { position: 1.0; color: "#a076a5" }
                     GradientStop { position: 0.0; color: Qt.rgba(0.223, 0.501, 0.78, 0.3) }  // 半透明蓝色
                     GradientStop { position: 1.0; color: Qt.rgba(0.627, 0.462, 0.647, 0.3) }  // 半透明紫色
                 }
@@ -224,11 +223,6 @@ Item {
                 }
 
                 model: myListModel
-                //     ListModel {
-                //     ListElement { name: "Item 1"; author: "未知"; src: "local"; duration: "00:00" }
-                //     ListElement { name: "Item 2"; author: "未知"; src: "local"; duration: "01:00" }
-                //     ListElement { name: "Item 2"; author: "未知"; src: "local"; duration: "02:00" }
-                // }
 
                 spacing: 10
 

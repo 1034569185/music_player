@@ -3,6 +3,7 @@ import Qt5Compat.GraphicalEffects
 import QtQuick.Layouts
 import QtQuick.Controls
 import QtCore
+import QtQml.Models
 
 // import qc.window 1.0
 // import qc.ms 1.0
@@ -53,6 +54,8 @@ FramelessWindow {
         id: metaHandle
     }
 
+    property var modelData: onlineModel
+
     Column{
         anchors.fill: parent
         TitleBar{
@@ -60,6 +63,10 @@ FramelessWindow {
             width: parent.width
             height: 80
             color: "#FAF2F1"
+
+            ListModel {
+                id: onlineModel
+            }
         }
 
         Rectangle {

@@ -8,6 +8,7 @@ Rectangle {
     width: parent.width
     height: 80
     color: "#FAF2F1"
+
     MouseArea {
         property var click_pos: Qt.point(0,0)
         anchors.fill: parent
@@ -63,6 +64,12 @@ Rectangle {
                     width = children[0].width + children[1].contentWidth + spacing
                 }
             }
+            Item {Layout.preferredWidth: 10; Layout.fillWidth: true}
+
+            Search{
+                id: searchFrame
+            }
+
             Item {Layout.preferredWidth: 10; Layout.fillWidth: true}
             Row {
                 width: 30*3 + 5*3

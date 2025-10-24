@@ -1,183 +1,246 @@
 import QtQuick
 import QtQuick.Controls
+import Qt5Compat.GraphicalEffects
+import Qt.labs.platform
 import "../qcComponent"
-import "../theme"
+import "../"
 
 Item {
     id: findMusicPage
-    property Theme thisTheme: ThemeManager.theme
-    property var headerData: [
-        {headerText: "最新音乐", qml:"pageFindMusicContent/FindMusicContent.qml"},
-    ]
-    property double fontSize: 12
     anchors.fill: parent
 
     Component.onCompleted: {
-        print("============")
+        metaHandle.mode = "online"
     }
 
-    Flickable {
-        id: findMusicFlickable
+    FolderDialog {
+        id: fd
 
-        property double headerHeight: 40
-        property int wheelStep: 300
-        property bool isWheeling: false
+        onFolderChanged: {
+            ul.downloadPath = fd.folder
+        }
+    }
+
+    Rectangle {
+        id: folderPos
         width: parent.width
-        height: parent.height
-        contentWidth: parent.width
-        contentHeight: findMusicHeader.height + findMusicContent.height + 30
-        interactive: false
-        clip: true
-        QCScrollBar.vertical: QCScrollBar {
-            handleNormalColor: "#1F" + thisTheme.iconColor
-        }
+        height: 60
+        color: "#FAF2F1"
 
-        onContentYChanged: {
-            contentItemLoaderTimer.start()
+        Text {
+            anchors.verticalCenter: parent.verticalCenter
+            leftPadding: 10
+            text: qsTr("下载位置")
+            color: "#572C27"
+            font.pointSize: 20
         }
-        MouseArea {
-            anchors.fill: parent
-            hoverEnabled: true
-            onClicked: function (mouse){
-                forceActiveFocus()
-            }
-            onWheel: function (wheel) {
-
-                findMusicFlickable.isWheeling = true
-                var step = findMusicFlickable.contentY
-                if(wheel.angleDelta.y >= 0) {
-                    if(findMusicFlickable.contentY - findMusicFlickable.wheelStep < 0) {
-                        step = 0
-                    } else {
-                        step = findMusicFlickable.contentY - findMusicFlickable.wheelStep
-                    }
-                }  else if(wheel.angleDelta.y < 0) {
-                    if(findMusicFlickable.contentY + findMusicFlickable.wheelStep + findMusicFlickable.height >= findMusicFlickable.contentHeight) {
-                        step = findMusicFlickable.contentHeight - findMusicFlickable.height
-                    } else {
-                        step = findMusicFlickable.contentY + findMusicFlickable.wheelStep
-                    }
-                }
-                if(findMusicFilckAni.to !== step) {
-                    findMusicFilckAni.to = step
-                    findMusicFilckAni.start()
-                }
-            }
-        }
-        PropertyAnimation {
-            id: findMusicFilckAni
-            target: findMusicFlickable
-            property: "contentY"
-            duration: 300
-            easing.type: Easing.InOutQuad
-            onStopped: {
-                findMusicFlickable.isWheeling = false
-            }
-        }
-
-
         Rectangle {
-            id: findMusicHeader
+            width: 50
+            height: width
+            x: 118
+            radius: 100
+            anchors.verticalCenter: parent.verticalCenter
+            color: "#FAF2F1"
+            QCImage {
+                id: icon
+                width: parent.width * 0.6
+                height: parent.height * 0.6
+                anchors.centerIn: parent
+                sourceSize: Qt.size(64,64)
+                source: "qrc:/Images/folder.svg"
+                color: "#572C27"
+            }
 
-            property var rootFlickable: findMusicFlickable
-            property int current: 0
-            property int topBottomPadding: 25
-            property int leftRightPadding: 35
-            anchors.horizontalCenter: parent.horizontalCenter
-            anchors.top: parent.top
-            anchors.topMargin: 20
-            radius: width/2
-            color: "#0F" + thisTheme.iconColor
-            Row {
-                Repeater {
-                    id: findMusicRepeater
-                    width: count * 40
-                    height: findMusicFlickable.headerHeight
-                    model: ListModel {
-                    }
-                    delegate: repeaterDelegate
-                    onCountChanged: {
-                        var w = 0
-                        var h = 0
-                        for(var i = 0; i < count;i++) {
-                            w += itemAt(i).width
-                            if(h < itemAt(i).height) {
-                                h = itemAt(i).height
+            MouseArea{
+                anchors.fill: parent
+                hoverEnabled: true
+                onEntered: {
+                    cursorShape = Qt.PointingHandCursor
+                    parent.color = "lightpink"
+
+                }
+
+                onExited: {
+                    parent.color = "#FAF2F1"
+                }
+                onClicked: {
+                    fd.open();
+                }
+            }
+        }
+    }
+
+    Rectangle {
+        width: parent.width
+        height: parent.height - 60
+        anchors.top: folderPos.bottom
+        border.width: 3
+        border.color: "hotpink"
+        radius: 13
+        color: "transparent"
+
+        LinearGradient {
+            width: parent.width * 0.992
+            height: parent.height * 0.992
+            anchors.centerIn: parent  // 使得矩形居中
+            start: Qt.point(0, 0)
+            end: Qt.point(300, 300)
+            gradient: Gradient {
+                GradientStop { position: 0.0; color: Qt.rgba(0.223, 0.501, 0.78, 0.3) }  // 半透明蓝色
+                GradientStop { position: 1.0; color: Qt.rgba(0.627, 0.462, 0.647, 0.3) }  // 半透明紫色
+            }
+            z: 10
+        }
+        ListView {
+            id: listV
+            anchors.fill: parent
+            anchors.leftMargin: 15
+            anchors.topMargin: 10
+            anchors.rightMargin: 15
+            clip: true
+            snapMode: ListView.SnapOneItem
+
+            ScrollBar.vertical: ScrollBar {
+                width: 10
+                size: 0.02
+                snapMode: ScrollBar.SnapAlways
+            }
+
+            model: window.modelData
+
+            spacing: 10
+
+            delegate: Item {
+                width: parent.width
+                height: 70
+                Rectangle {
+                    id: backg
+                    anchors.fill: parent
+                    // border.width: 1
+                    // border.color: "red"
+                    radius: 9
+                    property bool isHovered: false
+                    color: isHovered ? "skyblue" : "white"
+
+                    Menu {
+                        id: contentMenu
+
+                        MenuItem{
+                            text: "下载"
+                            onTriggered:{
+                                // print(model.url, model.name)
+                                ul.download(model.url, model.name)
+
                             }
                         }
-                        findMusicHeader.width = w
-                        findMusicHeader.height = h
                     }
-                    Component.onCompleted: {
-                        model.append(findMusicPage.headerData)
+
+                    MouseArea{
+                        anchors.fill: parent
+                        hoverEnabled: true
+                        propagateComposedEvents: true
+                        acceptedButtons: Qt.LeftButton | Qt.RightButton
+                        onEntered: {
+                            parent.isHovered = true;
+                        }
+
+                        onExited: {
+                            if( favi.isHovered == true ) return
+                            parent.isHovered = false;
+                        }
+                        onClicked: {
+                            if(mouse.button == Qt.RightButton)
+                            {
+                                contentMenu.open()
+                                contentMenu.popup(mouse.x, mouse.y)
+                            }
+                        }
+                        onDoubleClicked: {
+                            m_music_Player.m_setSource(model.url)
+                            m_music_Player.m_play()
+                            metaHandle.cur = index
+                        }
                     }
+
+                    Row {
+                        anchors.fill: parent
+                        property real benchmark: (parent.width - idxs.width - favi.width - name.width - author.width - duration.width) / 3.7
+                        Text {
+                            id: idxs
+                            anchors.verticalCenter: parent.verticalCenter
+                            anchors.left: parent.left
+                            anchors.leftMargin: 10
+                            text: index + 1
+                            font.pointSize: 15
+                        }
+                        QCImage{
+                            id: favi
+                            width: 17
+                            height: 17
+                            anchors.verticalCenter: parent.verticalCenter
+                            anchors.left: idxs.right
+                            anchors.leftMargin: 5
+                            sourceSize: Qt.size(64,64)
+                            source: "qrc:/Images/myFavorite.svg"
+                            color: "#572C27"
+                            property bool isHovered: false
+                            MouseArea{
+                                anchors.fill: parent
+                                hoverEnabled: true
+                                propagateComposedEvents: true
+                                onEntered: {
+                                    cursorShape = Qt.PointingHandCursor
+                                    parent.isHovered = true;
+                                }
+                                onExited: {
+                                    parent.isHovered = false
+                                }
+
+                                onClicked:  {
+
+                                }
+                            }
+                        }
+
+                        Text {
+                            id: name
+                            anchors.verticalCenter: parent.verticalCenter
+                            anchors.left: favi.right
+                            anchors.leftMargin: 10
+                            text: model.name
+                            font.pointSize: 15
+                        }
+                        Text {
+                            id: author
+                            anchors.verticalCenter: parent.verticalCenter
+                            anchors.left: name.right
+                            anchors.leftMargin: parent.benchmark
+                            text: model.author
+                            font.pointSize: 15
+                        }
+                        Text {
+                            id: src
+                            anchors.verticalCenter: parent.verticalCenter
+                            anchors.left: author.right
+                            anchors.leftMargin: parent.benchmark
+                            text: "online"
+                            font.pointSize: 15
+                        }
+                        Text {
+                            id: duration
+                            anchors.verticalCenter: parent.verticalCenter
+                            anchors.left: src.right
+                            anchors.leftMargin: parent.benchmark
+                            text: "暂无"
+                            font.pointSize: 15
+                        }
+                    }
+
+
+
                 }
+
             }
-        }
-        Loader {
-            id: findMusicContent
-            anchors.top: findMusicHeader.bottom
-            anchors.topMargin: 30
-            anchors.horizontalCenter: parent.horizontalCenter
-            width: parent.width
-            height: item != null ? item.height : 0
-            source: findMusicPage.headerData[findMusicHeader.current].qml
-            onStatusChanged: {
-                if(status === Loader.Ready) {
-                    console.log("当前加载内容: " + item)
-                }
-            }
-        }
-
-        Component {
-            id: repeaterDelegate
-            Rectangle {
-                property bool isHoverd: false
-                width: children[0].contentWidth + findMusicHeader.leftRightPadding
-                height: children[0].contentHeight + findMusicHeader.topBottomPadding
-                radius: width/2
-                color: if(findMusicHeader.current === index) return "#1F" + thisTheme.iconColor
-                else if(isHoverd) return "#0F" + thisTheme.iconColor
-                else return "#00000000"
-
-                Behavior on color {
-                    ColorAnimation {
-                        duration: 200
-                        easing.type:  Easing.InOutQuad
-                    }
-                }
-
-                Text {
-                    font.pointSize: findMusicPage.fontSize
-                    font.bold: findMusicHeader.current === index
-                    anchors.centerIn: parent
-                    text: headerText
-                    color: "#572C27"
-                }
-                MouseArea {
-                    anchors.fill: parent
-                    hoverEnabled: true
-                    onClicked: function (mouse){
-                        forceActiveFocus()
-                        findMusicHeader.current = index
-                    }
-                    onEntered: {
-                        parent.isHoverd = true
-                    }
-                    onExited: {
-                        parent.isHoverd = false
-                    }
-                }
-            }
-        }
-
-    }
-
-    Timer { // 加载组件函数消抖
-        id: contentItemLoaderTimer
-        interval: 250
-        onTriggered: {
-            findMusicContent.item.setContentItemLoader(findMusicFlickable.contentY)
         }
     }
 }

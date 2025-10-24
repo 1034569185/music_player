@@ -6,7 +6,7 @@ set(CMAKE_AUTOMOC ON)
 set(CMAKE_CXX_STANDARD 17)  # 设置为 C++ 20
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-find_package(Qt6 6.2 COMPONENTS Quick Multimedia REQUIRED)
+find_package(Qt6 6.2 COMPONENTS Quick Multimedia Network REQUIRED)
 
 set(CMAKE_AUTORCC ON)
 set(QT_QML_GENERATE_QMLLS_INI ON)
@@ -20,14 +20,11 @@ qt_add_qml_module(appmusic_player_demo
     VERSION 1.0
     QML_FILES main.qml
     SOURCES framelesswindow.h framelesswindow.cpp
-    SOURCES
-    RESOURCES
     RESOURCES ImageResource.qrc
     QML_FILES TitleBar.qml
     QML_FILES LeftBar.qml
     QML_FILES RightContent.qml
     QML_FILES BottomBar.qml
-    RESOURCES
     QML_FILES theme/Theme.qml
     QML_FILES theme/ThemeManager.qml
     RESOURCES theme/qmldir
@@ -36,15 +33,14 @@ qt_add_qml_module(appmusic_player_demo
     QML_FILES qcComponent/QCToolTipButton.qml qcComponent/QCVolumeBtn.qml
     QML_FILES pageQml/PageFindMusic.qml
     QML_FILES qcComponent/QCScrollBar.qml
-    QML_FILES
-    QML_FILES
     QML_FILES pageQml/PageLocalFolderDetail.qml
     SOURCES musicplayer.h musicplayer.cpp
     SOURCES qml_singleton.h
-    SOURCES
     QML_FILES pageQml/Tools.qml
     SOURCES myutility.h myutility.cpp
     QML_FILES MetaManager.qml
+    QML_FILES Search.qml
+    QML_FILES ajax.js
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
@@ -58,8 +54,9 @@ set_target_properties(appmusic_player_demo PROPERTIES
     WIN32_EXECUTABLE TRUE
 )
 
+
 target_link_libraries(appmusic_player_demo
-    PRIVATE Qt6::Quick Qt6::Multimedia)
+    PRIVATE Qt6::Quick Qt6::Multimedia Qt6::Network)
 
 include(GNUInstallDirs)
 install(TARGETS appmusic_player_demo

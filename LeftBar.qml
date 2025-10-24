@@ -33,7 +33,7 @@ Rectangle {
         "isActive": true
     }
     property string thisQml: "pageQml/PageLocalFolderDetail.qml"
-    property string thisBtnText: "发现音乐"
+    property string thisBtnText: "文件夹"
     // property string savePlayListInfoPath: "userInfo/playlistInfo.json"
     property int btnHeight: 40
     property int fontSize: 11

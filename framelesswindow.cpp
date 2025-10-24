@@ -1,5 +1,4 @@
 #include "framelesswindow.h"
-#include <iostream>
 
 FramelessWindow::FramelessWindow(QWindow * parent) : QQuickWindow(parent)
 {

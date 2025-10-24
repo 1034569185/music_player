@@ -71,7 +71,13 @@ private:
     Q_PROPERTY(float lastVolume READ getLastVolume WRITE setLastVolume NOTIFY lastVolumeChanged FINAL)
 
 public  slots:
-    void onInitializationDone(){emit metaDataChanged();}
+    void onInitializationDone(){
+        emit metaDataChanged();
+        // QMediaMetaData e = this->metaData();
+        // QList<QMediaMetaData::Key> keys = e.keys();
+        // for( QMediaMetaData::Key k : keys )
+        //     qDebug() << k << ":" << e[k];
+    }
 };
 
 // DECLARE_QML_SINGLETON(MusicPlayer)
